@@ -1,7 +1,9 @@
 const express = require('express');
 const app = express();
 
-var port = process.argv.PORT || 5000;
+var port = process.env.YOUR_PORT || process.env.PORT || 80 || 5000;
+var host = process.env.YOUR_HOST || '0.0.0.0';
+
 var bodyParser = require('body-parser');
 
 // SettingUp body-parser
@@ -40,6 +42,6 @@ app.post('/auth',loginPage.authUser);
 app.post('/createUser',signupPage.createUser);
 
 
-app.listen(port, () => {
+app.listen(port,host, () => {
     console.log(`Server listening at port:${port}`);
 });
