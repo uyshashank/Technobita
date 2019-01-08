@@ -1,8 +1,8 @@
 const express = require('express');
 const app = express();
 
-var port = process.env.YOUR_PORT || process.env.PORT || 80 || 5000;
-var host = process.env.YOUR_HOST || '0.0.0.0';
+var port = process.env.PORT || 5000;
+var host = '0.0.0.0';
 
 var bodyParser = require('body-parser');
 
