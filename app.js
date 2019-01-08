@@ -2,7 +2,6 @@ const express = require('express');
 const app = express();
 
 var port = process.env.PORT || 5000;
-var host = '0.0.0.0';
 
 var bodyParser = require('body-parser');
 
@@ -42,6 +41,6 @@ app.post('/auth',loginPage.authUser);
 app.post('/createUser',signupPage.createUser);
 
 
-app.listen(port,host, () => {
+app.listen(port, () => {
     console.log(`Server listening at port:${port}`);
 });
