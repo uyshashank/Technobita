@@ -1,0 +1,177 @@
+[
+    [
+        "General Information",
+        "Display",
+        "Connectivity",
+        "Memory",
+        "Physical Specification",
+        "Processor",
+        "Storage",
+        "Power",
+        "Sound",
+        "Pre-installed Applications",
+        "Warranty and Manufacturer's Information"
+    ],
+
+    {
+        "general_information": [
+            {
+                "title": "Model Name",
+                "body": "HP Pavilion Gaming Core i5"
+            },
+            {
+                "title": "Operating System",
+                "body": "Windows 10 Professional"
+            },
+            {
+                "title": "Laptop Type",
+                "body": "Gaming Laptop"
+            },
+            {
+                "title": "Price",
+                "body": "44000"
+            }
+        ],
+        "display": [
+            {
+                "title": "Screen Size",
+                "body": "15.6 inches"
+            },
+            {
+                "title": "Resolution",
+                "body": "1920 x 1080"
+            },
+            {
+                "title": "Other Details",
+                "body": "IPS anti-glare WLED-backlit Display | enjoy vibrant, crystal-clear images with 178-degree wide-viewing angles"
+            }
+        ],
+        "connectivity": [
+            {
+                "title": "Wireless",
+                "body": "Intel Wireless-AC 9560 802.11ac (2x2) Wi-Fi "
+            },
+            {
+                "title": "Pointing Device",
+                "body": "Touchpad"
+            },
+            {
+                "title": "Bluetooth",
+                "body": "v5"
+            }
+        ],
+        "memory": [
+            {
+                "title": "RAM Size",
+                "body": "8 GB"
+            },
+            {
+                "title": "Ram Type",
+                "body": "DDR4"
+            }
+        ],
+        "physical_specs": [
+            {
+                "title": "Weight",
+                "body": "2.17 Kg"
+            },
+            {
+                "title": "Color",
+                "body": "Shadow Black"
+            },
+            {
+                "title": "Height and Width",
+                "body": "25 mm | 25.7 cm"
+            },
+            {
+                "title": "Product Dimensions",
+                "body": "36.5 x 25.7 x 2.5 cm"
+            },
+            {
+                "title": "Port & CD Drive",
+                "body": "USB 3.0 : 3 | HDMI : 1 | Audio-out Ports : 1 | Ethernet Ports : 1"
+            }
+        ],
+        "processor": [
+            {
+                "title": "CPU",
+                "body": "Intel Core i5-8300H (8th Gen)"
+            },
+            {
+                "title": "Clock Speed",
+                "body": "2.3 GHz"
+            },
+            {
+                "title": "Processor Details",
+                "body": "Quad-Core (2.3 GHz base frequency, up to 4 GHz with Intel Turbo Boost Technology, 8 MB cache, 4 cores)"
+            },
+            {
+                "title": "GPU",
+                "body": "NVIDIA GeForce GTX 1050"
+            },
+            {
+                "title": "GPU Memory",
+                "body": "4 GB"
+            },
+            {
+                "title": "Other GPU Details",
+                "body": " NVIDIA Pascal and game ready technologies drive the latest games in their full glory"
+            }
+        ],
+        "storage": [
+            {
+                "title": "Storage Drive Type",
+                "body": "SATA"
+            },
+            {
+                "title": "Capacity",
+                "body": "1 TB"
+            },
+            {
+                "title": "HDD Details",
+                "body": "7200 RPM"
+            }
+        ],
+        "power": [
+            {
+                "title": "Battery",
+                "body": "3 Cell"
+            },
+            {
+                "title": "Lithium Ion Battery Energy Content",
+                "body": "52.5 Watt Hours"
+            },
+            {
+                "title": "Battery Type",
+                "body": "Li-ion"
+            }
+        ],
+        "sound": [
+            {
+                "title": "Speaker Description",
+                "body": "Dual Speakers"
+            },
+            {
+                "title": "Audio Details",
+                "body": "Headphones"
+            }
+        ],
+        "pre_installed_apps": [
+            {
+                "title": "OS",
+                "body": "Windows 10 Home"
+            },
+            {
+                "title": "Additional Software",
+                "body": "Microsoft Windows Office 2016 Home & Student Edition"
+            }
+            
+        ],
+        "warranty_manufacturer_info": [
+            {
+                "title": "Warranty",
+                "body": "1 year limited parts and labour warranty by brand."
+            }
+        ]
+    }
+]

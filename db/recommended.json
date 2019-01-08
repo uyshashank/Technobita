@@ -1,0 +1,60 @@
+[
+        {
+            "brand_name": "asus",
+            "product_name": "asus_x507ua_core_i5",
+            "product_title":"ASUS Laptop X507UA Core i5",
+            "memory":"8 GB SDRAM",
+            "storage":"1 TB HDD",
+            "rating":"4.2"
+    }, {
+            "brand_name": "dell",
+            "product_name": "vostro_3568_core_i3",
+            "product_title":"Dell Vostro 3568 Core i3",
+            "memory":"4 GB DDR3",
+            "storage":"1 GB HDD",
+            "rating":"3.9"
+    }, {
+            "brand_name": "asus",
+            "product_name": "zenbook_s_ux391ua_core_i7",
+            "product_title":"ASUS ZenBook S UX391UA",
+            "memory":"16 GB",
+            "storage":"512 GB SSD",
+            "rating":"4.6"
+    }, {
+            "brand_name": "dell",
+            "product_name": "vostro_3478_core_i3",
+            "product_title":"Dell Vostro 3478 Core i3",
+            "memory":"4 GB DDR4",
+            "storage":"1 TB HDD",
+            "rating":"4.1"
+    }, {
+            "brand_name": "hp",
+            "product_name": "omen_x_core_i7",
+            "product_title":"HP OMEN X Core i7",
+            "memory":"32 GB DDR4",
+            "storage":"1 TB SSD",
+            "rating":"4.4"
+    },{
+        "brand_name": "hp",
+        "product_name": "pavilion_15_core_i5",
+        "product_title":"HP Pavilion Gaming Core i5",
+        "memory":"8 GB DDR4",
+        "storage":"1 TB",
+        "rating":"4.5"
+}, {
+        "brand_name": "lenovo",
+        "product_name": "ideapad_320_core_i3",
+        "product_title":"Lenovo Ideapad 320 Core i3",
+        "memory":"4 GB DDR4",
+        "storage":"1 TB",
+        "rating":"4.0"
+}, {
+        "brand_name": "lenovo",
+        "product_name": "yoga_730_core_i7",
+        "product_title":"Lenovo Yoga 730 Core i7",
+        "memory":"8 GB DDR4",
+        "storage":"512 GB SSD",
+        "rating":"4.7"
+}
+    ]
+    

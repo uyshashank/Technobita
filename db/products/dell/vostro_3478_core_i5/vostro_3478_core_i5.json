@@ -1,0 +1,187 @@
+[
+    [
+        "General Information",
+        "Display",
+        "Connectivity",
+        "Memory",
+        "Physical Specification",
+        "Processor",
+        "Storage",
+        "Power",
+        "Sound",
+        "Keyboard",
+        "Pre-installed Applications",
+        "Warranty and Manufacturer's Information"        
+    ],
+    
+    {
+        "general_information": [
+            {
+                "title": "Model Name",
+                "body": "Dell Vostro 3478 Core i5"
+            },
+            {
+                "title": "Launch Date",
+                "body": "06-07-2018"
+            },
+            {
+                "title": "Operating System",
+                "body": "Windows 10 Home"
+            },
+            {
+                "title": "Laptop Type",
+                "body": "Notebook"
+            },
+            {
+                "title": "Price",
+                "body": "47000"
+            }
+        ],
+        "display": [
+            {
+                "title": "Resolution",
+                "body": "1366 x 768"
+            },
+            {
+                "title": "Display Size",
+                "body": "14 inches"
+            },
+            {
+                "title": "Display Technology",
+                "body": "HD"
+            }
+        ],
+        "connectivity": [
+            {
+                "title": "Wireless",
+                "body": "Yes"
+            },
+            {
+                "title": "Pointing Device",
+                "body": "Touchpad"
+            },            
+            {
+                "title": "Bluetooth",
+                "body": "Yes"
+            }
+        ],
+        "memory": [
+            {
+                "title": "Ram",
+                "body": "4 GB"
+            },
+            {
+                "title": "Ram Type",
+                "body": "DDR4"
+            }
+        ],
+        "physical_specs": [
+            {
+                "title": "Weight",
+                "body": "2.3 Kg"
+            },
+            {
+                "title": "Color",
+                "body": "Black"
+            },
+            {
+                "title": "Height and Width",
+                "body": "24 mm | 34.5 cm"
+            },
+            {
+                "title": "Dimensions",
+                "body": "24.3 x 34.5 x 2.4 cm"
+            },
+            {
+                "title": "Port & CD Drive",
+                "body": "1 USB 2.0, 2 USB 3.0 | With CD drive"
+            }
+        ],
+        "processor": [
+            {
+                "title": "CPU",
+                "body": "Intel Core i5-8250U (8th Gen)"
+            },
+            {
+                "title": "Clock Speed",
+                "body": "3.4 Ghz"
+            },
+            {
+                "title": "GPU",
+                "body": "AMD Radeon 520 2 GB"
+            }
+        ],
+        "storage": [
+            {
+                "title": "Hard Drive Type",
+                "body": "SATA"
+            },
+            {
+                "title": "Capacity",
+                "body": "1 TB"
+            }
+        ],
+        "power": [
+            {
+                "title": "Battery",
+                "body": "2 Cell Battery"
+            },
+            {
+                "title": "Lithium Ion Battery Energy Content",
+                "body": "40 Watt Hours"
+            },
+            {
+                "title": "Battery Backup",
+                "body": "-"
+            },
+            {
+                "title": "Battery Type",
+                "body": "Li-ion"
+            }
+        ],
+        "sound": [
+            {
+                "title": "Speakers",
+                "body": "Dual"
+            },
+            {
+                "title": "Sound Technology",
+                "body": "-"
+            }
+        ],
+        "keyboard": [
+            {
+                "title": "Keyboard Type",
+                "body": "-"
+            },
+            {
+                "title": "Other Features",
+                "body": "-"
+            }
+        ],
+        "pre_installed_apps": [
+            {
+                "title": "OS",
+                "body": "Windows 10 Home (Lifetime Validity)"
+            },
+            {
+                "title": "Office",
+                "body": "MS Office Home & Student 2016"
+            },
+            {
+                "title": "Antivirus",
+                "body": "McAfee Security Center 15 Months Subscription"
+            }
+        ],
+        "warranty_manufacturer_info": [
+            {
+                "title": "Warranty Length",
+                "body": "1 Year"
+            },
+            {
+                "title": "Warraty Details",
+                "body": "1 Year Onsite Service"
+            }
+        ]
+    }
+]

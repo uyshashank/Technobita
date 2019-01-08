@@ -1,0 +1,214 @@
+[
+    [
+        "General Information",
+        "Display",
+        "Connectivity",
+        "Memory",
+        "Physical Specification",
+        "Processor",
+        "Storage",
+        "Webcam and Microphone",
+        "Power",
+        "Sound",
+        "Keyboard",
+        "Pre-installed Applications",
+        "Warranty and Manufacturer's Information"
+    ],
+
+    {
+        "general_information": [
+            {
+                "title": "Model Name",
+                "body": "HP OMEN X Core i7"
+            },
+            {
+                "title": "Operating System",
+                "body": "Windows 10 Professional"
+            },
+            {
+                "title": "Laptop Type",
+                "body": "Gaming Laptop"
+            },
+            {
+                "title": "Price",
+                "body": "67000"
+            }
+        ],
+        "display": [
+            {
+                "title": "Screen Size",
+                "body": "17.3 inches"
+            },
+            {
+                "title": "Resolution",
+                "body": "1920 x 1080"
+            },
+            {
+                "title": "Other Details",
+                "body": "Full HD | LED Backlit Display 1080p | 16:9"
+            }
+        ],
+        "connectivity": [
+            {
+                "title": "Wired LAN",
+                "body": "10/100/1000 Gigabit"
+            },
+            {
+                "title": "Wireless LAN",
+                "body": "Integrated 802.11ac"
+            },
+            {
+                "title": "Pointing Device",
+                "body": "Touchpad"
+            },
+            {
+                "title": "Bluetooth",
+                "body": "v4.2"
+            }
+        ],
+        "memory": [
+            {
+                "title": "RAM Size",
+                "body": "32 GB"
+            },
+            {
+                "title": "Ram Type",
+                "body": "DDR4"
+            }
+        ],
+        "physical_specs": [
+            {
+                "title": "Weight",
+                "body": "4.52 Kg"
+            },
+            {
+                "title": "Color",
+                "body": "Shadow Black"
+            },
+            {
+                "title": "Height and Width",
+                "body": "36 mm | 32.7 cm"
+            },
+            {
+                "title": "Product Dimensions",
+                "body": "42.5 x 32.7 x 3.6 cm"
+            },
+            {
+                "title": "Port & CD Drive",
+                "body": "USB 3.1 : 3 | USB 3.1 Type C : 2 | One Headphone Out | One RJ-45"
+            }
+        ],
+        "processor": [
+            {
+                "title": "CPU",
+                "body": "Intel Core i7 Mobile Processor i7-7820HK (7th Gen)"
+            },
+            {
+                "title": "Clock Speed",
+                "body": "2.9 GHz"
+            },
+            {
+                "title": "Processor Details",
+                "body": "TurboBoost 2.0 up to 3.9 GHz, 8 MB Smart Cache"
+            },
+            {
+                "title": "GPU",
+                "body": "NVIDIA GeForce GTX 1080"
+            },
+            {
+                "title": "GPU Memory",
+                "body": "8 GB"
+            },
+            {
+                "title": "Other GPU Details",
+                "body": "DirectX 12 Support"
+            }
+        ],
+        "storage": [
+            {
+                "title": "Storage Drive Type",
+                "body": "SSD"
+            },
+            {
+                "title": "Capacity",
+                "body": "1 TB"
+            },
+            {
+                "title": "SSD Details",
+                "body": "Two 512 GB SSD"
+            }
+        ],
+        "webcam_microphone": [
+            {
+                "title": "Webcam",
+                "body": "HP Wide Vision Full HD Webcam"
+            },
+            {
+                "title": "Webcam Resolution",
+                "body": "1920 x 1080 by 30 Frames"
+            },
+            {
+                "title": "Webcam Details",
+                "body": "Wide Field of Vision (WFOV) – up to 88° | WDR (Wide Dynamic Range)-Work with varying light conditions | BSI Sensor"
+            },
+            {
+                "microphone": "Dual array Digital Microphones"
+            }
+        ],
+        "power": [
+            {
+                "title": "Battery",
+                "body": "6 Cell"
+            },
+            {
+                "title": "Lithium Ion Battery Energy Content",
+                "body": "99 Watt Hours"
+            },
+            {
+                "title": "Battery Type",
+                "body": "Li-ion"
+            },
+            {
+                "title": "Fast Charging",
+                "body": "Available"
+            }
+        ],
+        "sound": [
+            {
+                "title": "Speaker Description",
+                "body": "Bang and Olufsen Audio | HP Audio Boost 2.0 w/ discrete amplifier "
+            },
+            {
+                "title": "Audio Details",
+                "body": "Dual Speakers | DTS Headphone:X - for simulated surround sound "
+            }
+        ],
+        "keyboard": [
+            {
+                "title": "Keyboard",
+                "body": "Shadow Black Backlit Keyboard with Numeric keypad | N-Key Rollover every Key, Anti-Ghosting keys"
+            },
+            {
+                "title": "Touchpad",
+                "body": "RGB LED per key HP ImagePad - Image sensors built-in for accurate Multi-Touch Gesture support"
+            }
+        ],
+        "pre_installed_apps": [
+            {
+                "title": "OS",
+                "body": "Windows 10 Home (64-bit)"
+            },
+            {
+                "title": "Additional Software",
+                "body": "McAfee LiveSafe (12 months Subscription)"
+            }
+            
+        ],
+        "warranty_manufacturer_info": [
+            {
+                "title": "Warranty",
+                "body": "1 year limited parts and labour warranty by brand."
+            }
+        ]
+    }
+]

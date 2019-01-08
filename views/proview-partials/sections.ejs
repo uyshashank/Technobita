@@ -1,0 +1,117 @@
+<style>
+    div::-webkit-scrollbar {
+        width: 0px;
+    }
+</style>
+
+<%
+var category=[];
+var i=0;
+for (var key in data.jsonFile[1]) {
+     category[i] = data.jsonFile[1][key].slice();
+     i++;
+}
+%>
+<h2 class="heading mt-3 text-center">
+    <u>
+        <%= data.jsonFile[1].general_information[0].body %></u>
+</h2>
+
+<div class="overview border mt-3">
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col" colspan="2">Overview</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">1</th>
+                <td>
+                    <%= data.jsonFile[1].memory[0].title %>
+                </td>
+                <td>
+                    <%= data.jsonFile[1].memory[0].body %>
+                </td>
+            </tr>
+            <tr>
+                <th scope="row">2</th>
+                <td>
+                    <%= data.jsonFile[1].storage[0].title %>
+                </td>
+                <td>
+                    <%= data.jsonFile[1].storage[0].body %>
+                </td>
+            </tr>
+            <tr>
+                <th scope="row">3</th>
+                <td>
+                    <%= data.jsonFile[1].processor[0].title %>
+                </td>
+                <td>
+                    <%= data.jsonFile[1].processor[0].body %>
+                </td>
+            </tr>
+            <tr>
+                <th scope="row">4</th>
+                <td>
+                    <%= data.jsonFile[1].processor[1].title %>
+                </td>
+                <td>
+                    <%= data.jsonFile[1].processor[1].body %>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+<div class="row d-md-none justify-content-center mt-4">
+    <div class="col">
+        <a class="btn btn-lg text-white w-100 rounded-0 text-center btn-success" onclick='validate()' id="addToCartBtnMedium"> Add to Cart</a>
+    </div>
+
+    <div class="col">
+        <a class="btn btn-lg text-white w-100 rounded-0 text-center btn-warning" href="/cart">Buy Now</a>
+    </div>
+</div>
+<h3 class="heading my-3 text-center"><u>Full Specifications</u></h3>
+
+<div class="fullSpecs" id="fullSpecs">
+    <!--Accordian Start-->
+    <div id="accordion">
+        <% for(var a = 0;a<data.jsonFile[0].length ;a++) { %>
+        <div class="card mb-1" style="background-color:white;cursor:pointer;">
+            <div onclick="toggle()" class="card-header btn-link py-2 border bg-light" id="heading<%=a+1%>" data-toggle="collapse"
+                data-target="#collapse<%=a+1%>" aria-expanded="true" aria-controls="collapse<%=a+1%>">
+                <div class="row">
+                    <h5 class="col-8 mb-0 pl-0">
+                        <button class="p-0 btn btn-link text-info">
+                            <%= data.jsonFile[0][a] %>
+                        </button>
+                    </h5>
+
+
+                </div>
+            </div>
+
+            <div id="collapse<%=a+1%>" class="collapse" aria-labelledby="heading<%=a+1%>" data-parent="#accordion">
+                <div class="card-body">
+                    <table class="table ">
+                        <% for(var x = 0; x<category[a].length; x++){ %>
+                        <tr class="row">
+                            <td class="col">
+                                <%= category[a][x].title %>
+                            </td>
+                            <td class="col">
+                                <%= category[a][x].body %>
+                            </td>
+                        </tr>
+                        <%}%>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <%}%>
+    </div>
+    <!--Accordian End-->
+</div>

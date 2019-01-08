@@ -1,0 +1,117 @@
+<style>
+    .img,
+    .emptyCart {
+        position: relative;
+        display: block;
+    }
+</style>
+<script src="../../js/script.js"></script>
+<% 
+var cartSum = 0;
+var price = [];
+
+if(cartItems !== 'null'){
+    for(var i = 0; i< jsonFile.length; i++){
+        price.push(jsonFile[i][1].general_information[jsonFile[i][1].general_information.length-1].body);
+        cartSum += parseInt(price[i]);    
+    }
+}
+
+%>
+<div class="container pt-3">
+    <div class="row">
+        <div class="col-md-8">
+            <h3 class="text-center">Items in your Cart!</h3>
+
+            <% if(cartItems != 'null'){ %>
+            <% for(var i = 0; i<jsonFile.length; i++){ %>
+            <div class="border item-card row py-2 my-2" style="min-height:120px;">
+                <div class="col-4">
+                    <a href="<%= '/find/' + cartItems[i].title + '/' + cartItems[i].body %>">
+                        <img src="<%=imgpath[i]%>" alt="Img error" class="img img-fluid mt-2 mx-auto" style="max-height: 100px">
+                    </a>
+                </div>
+                <div class="col-8">
+                    <h5 class="mt-2">
+                        <a href="<%= '/find/' + cartItems[i].title + '/' + cartItems[i].body %>" class="names">
+                            <%= jsonFile[i][1].general_information[0].body %>
+                        </a>
+                    </h5>
+                    <p class="text-muted" style="font-size:12px;">Sold by: Star Technologies &trade; </p>
+                    <div class="mt-2 row" style="font-size:13px;">
+                        <div class="col">
+                            <span style="font-size: 18px" class="prices text-success">
+                                ₹
+                                <%= price[i] %></span>
+                            <button class="btn btn-light btn-sm float-right" onclick="deleteItem(this)" node="<%=i%>"><i
+                                    class="fas fa-trash-alt"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <% } }else{ %>
+            <!-- <p class="text-center text-muted">Your cart is empty!</p> -->
+            <img src="../../images/logo/emptyCart.png" alt="Your cart is empty!" class="my-5 emptyCart mx-auto img-fluid">
+            <% } %>
+
+        </div>
+        <div class="col-md-4" style="margin-top:40px;">
+            <table class="table my-0">
+                <tr>
+                    <h3 class="text-center">
+                        Account Summary
+                    </h3>
+                </tr>
+                <tr>
+                    <td>
+                        <p> Subtotal </p>
+                    </td>
+                    <td>
+                        <p>:</p>
+                    </td>
+                    <td>
+                        <p>₹ <span id="subtotal">
+                                <%= cartSum %></span> </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p> GST </p>
+                    </td>
+                    <td>
+                        <p>:</p>
+                    </td>
+                    <td>
+                        <p>₹ <span id="gst">
+                                <%= cartSum/100 * 18 %></span> </p>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <h5>Grand Total </h5>
+                    </td>
+                    <td>
+                        <p>:</p>
+                    </td>
+                    <td>
+                        <h5>₹ <span id="grandTotal">
+                                <%= cartSum + cartSum/100 * 18 %></span> </h5>
+                    </td>
+                </tr>
+                <tr class="w-100">
+                    <td colspan="3">
+                        <button class="btn btn-lg btn-warning text-light w-100" onclick="checkOutValidation()"> 
+                            Proceed to Checkout <i class="fas fa-sign-out-alt"></i>
+                         </button>
+                    </td>
+                </tr>
+                <tr class="w-100">
+                    <td colspan="3" id="warningPlaceOrder"></td>  
+                </tr>
+            </table>
+        </div>
+
+    </div>
+</div>

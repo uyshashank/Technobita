@@ -1,0 +1,158 @@
+[
+    [
+        "General Information",
+        "Display",
+        "Connectivity",
+        "Memory",
+        "Physical Specification",
+        "Processor",
+        "Storage",
+        "Power",
+        "Sound",
+        "Keyboard",
+        "Pre-installed Applications",
+        "Warranty and Manufacturer's Information"        
+    ],
+    
+    {
+        "general_information": [
+            {
+                "title": "Model Name",
+                "body": "Dell Inspiron 15 7572"
+            },
+            {
+                "title": "Operating System",
+                "body": "Windows 10 Home"
+            },
+            {
+                "title": "Laptop Type",
+                "body": "Notebook"
+            },
+            {
+                "title": "Price",
+                "body": "65000"
+            }
+        ],
+        "display": [
+            {
+                "title": "Resolution",
+                "body": "1920 x 1080"
+            },
+            {
+                "title": "Display Size",
+                "body": "15.6 inches"
+            },
+            {
+                "title": "Display Technology",
+                "body": "FHD, IPS Truelife LED-Backlit Display"
+            }
+        ],
+        "connectivity": [
+            {
+                "title": "Wireless",
+                "body": "Yes, 802.11ac "
+            },
+            {
+                "title": "Pointing Device",
+                "body": "Touchpad"
+            },            
+            {
+                "title": "Bluetooth",
+                "body": "Yes, 4.1"
+            }
+        ],
+        "memory": [
+            {
+                "title": "RAM Size",
+                "body": "8 GB"
+            },
+            {
+                "title": "RAM Type",
+                "body": "DDR4, 2400 MHz"
+            },
+            {
+                "title": "Expandable upto",
+                "body": "16 GB"
+            }
+        ],
+        "physical_specs": [
+            {
+                "title": "Weight",
+                "body": "2.3 Kg"
+            },
+            {
+                "title": "Color",
+                "body": "Black"
+            },
+            {
+                "title": "Height and Width",
+                "body": "24 mm | 34.5 cm"
+            },
+            {
+                "title": "Dimensions",
+                "body": "24.3 x 34.5 x 2.4 cm"
+            }
+        ],
+        "processor": [
+            {
+                "title": "CPU",
+                "body": "Intel Core i7-8550U (8th Gen) 8MB Cache"
+            },
+            {
+                "title": "Clock Speed",
+                "body": "Upto 4.0 GHz"
+            },
+            {
+                "title": "GPU",
+                "body": "NVIDIA GeForce MX150 with 4GB GDDR5"
+            }
+        ],
+        "storage": [
+            {
+                "title": "Hard Drive",
+                "body": "Dual Drive with 128 GB SSD + 1 TB Hard Drive"
+            }
+        ],
+        "power": [
+            {
+                "title": "Battery",
+                "body": "3 Cell Battery(Integrated)"
+            },
+            {
+                "title": "Lithium Ion Battery Energy Content",
+                "body": "42 Watt Hours"
+            }
+        ],
+        "sound": [],
+        "keyboard": [
+            {
+                "title": "Keyboard",
+                "body": "English Backlit Keyboard"
+            }
+        ],
+        "pre_installed_apps": [
+            {
+                "title": "OS",
+                "body": "Windows 10 Home (Lifetime Validity)"
+            },
+            {
+                "title": "Office",
+                "body": "MS Office Home & Student 2016"
+            },
+            {
+                "title": "Antivirus",
+                "body": "McAfee Security Center 15 Months Subscription"
+            }
+        ],
+        "warranty_manufacturer_info": [
+            {
+                "title": "Warranty Length",
+                "body": "1 Year"
+            },
+            {
+                "title": "Warraty Details",
+                "body": "1 Year Onsite Service"
+            }
+        ]
+    }
+]

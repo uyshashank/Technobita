@@ -1,0 +1,158 @@
+[
+    [
+        "General Information",
+        "Display",
+        "Connectivity",
+        "Memory",
+        "Physical Specification",
+        "Processor",
+        "Storage",
+        "Power",
+        "Sound",
+        "Keyboard",
+        "Pre-installed Applications"
+    ],
+
+    {
+        "general_information": [
+            {
+                "title": "Model Name",
+                "body": "Asus ROG Zephyrus"
+            },
+            {
+                "title": "Operating System",
+                "body": "Windows 10 Pro"
+            },
+            {
+                "title": "Price",
+                "body": "90000"
+            }
+        ],
+        "display": [
+            {
+                "title": "Screen Size",
+                "body": "15.6 inches"
+            },
+            {
+                "title": "Resolution",
+                "body": "1920 x 1080"
+            },
+            {
+                "title": "Other Details",
+                "body": "IPS-level panel, 144Hz"
+            }
+        ],
+        "connectivity": [
+            {
+                "title": "Wireless",
+                "body": "Wi-Fi : 802.11ac 2x2 Wave 2 WLAN"
+            },
+            {
+                "title": "Bluetooth",
+                "body": "v5"
+            }
+        ],
+        "memory": [
+            {
+                "title": "RAM Size",
+                "body": "16 GB"
+            },
+            {
+                "title": "Ram Details",
+                "body": "DDR4 2666MHz SDRAM"
+            }
+        ],
+        "physical_specs": [
+            {
+                "title": "Weight",
+                "body": "2.2 Kg"
+            },
+            {
+                "title": "Color",
+                "body": "Black"
+            },
+            {
+                "title": "Height | Width | Depth",
+                "body": "1.69 ~ 1.79 cm | 37.9 cm | 26.2 cm"
+            },
+            {
+                "title": "Ports",
+                "body": "USB 3.1 Gen2 Type-C over Thunderbolt: 1 | USB 3.1 Gen1 : 2 | USB 3.1 Gen2 : 2 | HDMI 2.0 : 1 | 3.5mm headphone and microphone combo jack : 1 | Kensington lock : 1"
+            }
+        ],
+        "processor": [
+            {
+                "title": "CPU",
+                "body": "Intel Core i7-8750H"
+            },
+            {
+                "title": "Clock Speed",
+                "body": "2.8 GHz"
+            },
+            {
+                "title": "Processor Count",
+                "body": "4"
+            },
+            {
+                "title": "GPU",
+                "body": "NVIDIA GeForce GTX 1080"
+            },
+            {
+                "title": "GPU Details",
+                "body": "8GB GDDR5X VRAM"
+            }
+            
+        ],
+        "storage": [
+            {
+                "title": "Storage Drive Type",
+                "body": "SSD"
+            },
+            {
+                "title": "Capacity",
+                "body": "1TB"
+            }
+        ],
+        "power": [
+            {
+                "title": "Battery and Power",
+                "body": "2 Hour Battery life(Standard Mode)"
+            },
+            {
+                "title": "Charging Adapter",
+                "body": "230W Power Adapter"
+            }
+        ],
+        "sound": [
+            {
+                "title": "Speaker Description",
+                "body": "2 x 2W speaker with Smart AMP technology"
+            },
+            {
+                "title": "Microphone",
+                "body": "Array microphones"
+            }
+        ],
+        "keyboard": [
+            {
+                "title": "Keyboard",
+                "body": "AURA SYNC | Backlit chicklet keyboard | Marked QWER/WASD keys |  Hot keys: Ten-Key Function / ROG Gaming Center | 1.4mm travel distance"
+            },
+            {
+                "title": "Touchpad",
+                "body": "Force Touch trackpad for precise cursor control and pressure-sensing capabilities; enables Force clicks, accelerators, pressure-sensitive drawing and Multi-Touch gestures"
+            }
+        ],
+        "pre_installed_apps": [
+            {
+                "title": "OS",
+                "body": "Windows 10 Professional"
+            },
+            {
+                "title": "Built-in Apps",
+                "body": "ROG Gaming Center, ROG Game First, ROG GameVisual, Sonic Studio & Sonic Radar, Aura Core, Android App, XSplit Gamecaster"
+            }
+            
+        ]
+    }
+]

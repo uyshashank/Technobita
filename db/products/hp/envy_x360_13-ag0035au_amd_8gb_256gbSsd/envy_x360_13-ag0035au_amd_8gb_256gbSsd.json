@@ -1,0 +1,179 @@
+[
+    [
+        "General Information",
+        "Display",
+        "Connectivity",
+        "Memory",
+        "Physical Specification",
+        "Processor",
+        "Storage",
+        "Power",
+        "Sound and Webcam",
+        "Input Devices",
+        "Pre-installed Applications",
+        "Warranty and Manufacturer's Information"
+    ],
+
+    {
+        "general_information": [
+            {
+                "title": "Model Name",
+                "body": "HP ENVY x360 AMD Ryzen™ 5 2500U"
+            },
+            {
+                "title": "Operating System",
+                "body": "Windows 10 Home Single Language 64"
+            },
+            {
+                "title": "Laptop Type",
+                "body": "Convertible Laptop"
+            },
+            {
+                "title": "Price",
+                "body": "66000"
+            }
+        ],
+        "display": [
+            {
+                "title": "Screen Size",
+                "body": "13.3 inches"
+            },
+            {
+                "title": "Resolution",
+                "body": "1920 x 1080"
+            },
+            {
+                "title": "Display Details",
+                "body": "FHD IPS BrightView WLED-backlit micro-edge multitouch-enabled edge-to-edge glass"
+            }
+        ],
+        "connectivity": [
+            {
+                "title": "Wireless",
+                "body": "802.11a/b/g/n/ac (2x2) Wi-Fi®"
+            },
+            {
+                "title": "Bluetooth",
+                "body": "v4.2 Combo"
+            },
+            {
+                "title": "Wireless Note",
+                "body": "MU-MIMO supported, Miracast compatible"
+            }
+        ],
+        "memory": [
+            {
+                "title": "RAM Size",
+                "body": "8 GB"
+            },
+            {
+                "title": "Ram Type",
+                "body": "DDR4-2400 SDRAM"
+            }
+        ],
+        "physical_specs": [
+            {
+                "title": "Weight(Varies by Configuration)",
+                "body": "1.3 Kg"
+            },
+            {
+                "title": "Color",
+                "body": "Dark Ash Silver"
+            },
+            {
+                "title": "Height | Width | Depth",
+                "body": "14.9 mm | 30.67 cm | 21.46 cm"
+            },
+            {
+                "title": "Port & CD Drive",
+                "body": "1 USB 3.1 Type-C™ Gen 2 (Data Transfer up to 5 Gb/s, Power Delivery, DisplayPort™ 1.4, HDMI 2.0, HP Sleep and Charge), 2 USB 3.1 Gen 1 (1 HP Sleep and Charge), 1 headphone/microphone combo, 1 microSD media card reader"
+            }
+        ],
+        "processor": [
+            {
+                "title": "CPU",
+                "body": "AMD Ryzen™ 5 2500U Quad-Core"
+            },
+            {
+                "title": "Clock Speed",
+                "body": "2 GHz base frequency, up to 3.6 GHz burst frequency"
+            },
+            {
+                "title": "CPU Cache",
+                "body": "6 MB"
+            },
+            {
+                "title": "GPU",
+                "body": "AMD Radeon™ Vega 8 Graphics"
+            }
+        ],
+        "storage": [
+            {
+                "title": "Storage Drive Type",
+                "body": "SSD"
+            },
+            {
+                "title": "SSD Details",
+                "body": "256 GB PCIe® NVMe™ M.2 SSD"
+            }
+        ],
+        "power": [
+            {
+                "title": "Battery",
+                "body": "4 Cell"
+            },
+            {
+                "title": "Lithium Ion Battery Energy Content",
+                "body": "53.2 Watt Hours"
+            },
+            {
+                "title": "Battery Type",
+                "body": "Li-ion"
+            },
+            {
+                "title": "Power Supply Type",
+                "body": "65 W EM AC power adapter"
+            },
+            {
+                "title": "Energy Efficient Compliance",
+                "body": "ENERGY STAR® certified; EPEAT® Silver registered"
+            }
+        ],
+        "sound_cam": [
+            {
+                "title": "Speaker Description",
+                "body": "Bang & Olufsen, quad speakers, HP Audio Boost"
+            },
+            {
+                "title": "Webcam",
+                "body": "HP Wide Vision HD IR Camera with integrated dual array digital microphone"
+            }
+        ],
+        "input_devices": [
+            {
+                "title": "Pointing Device",
+                "body": "HP Imagepad with multi-touch gesture support"
+            },
+            {
+                "title": "Keyboard",
+                "body": "Full-size island-style backlit keyboard"
+            }
+        ],
+        "pre_installed_apps": [
+            {
+                "title": "OS",
+                "body": "Windows 10 Professional"
+            },
+            {
+                "title": "Security",
+                "body": "McAfee LiveSafe™(30 Days free trial)"
+            }
+        ],
+        "warranty_manufacturer_info": [
+            {
+                "title": "Warranty",
+                "body": "1 year limited parts and labour"
+            }
+        ]
+    }
+]

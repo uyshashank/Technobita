@@ -1,0 +1,35 @@
+<!--Carousel Slideshow for <= md screens-->
+<!--Name of colors in array folders-->
+<!--brand_name,product_name,imgPath,jsonFile-->
+
+<% var path = data.imgPathSlider + '/';%>
+<section class="proview-hero container-fluid mt-4">
+    <div id="demo" class="text-center carousel slide" data-ride="carousel" style="min-height:300px;">
+        <!-- The slideshow -->
+        <div class="carousel-inner">
+            <%for(var i = 1; i<= data.num_of_img; i++){%>
+            <div class="mx-2 carousel-item <%= i-1==0?'active':'' %>">
+                <img src="<%=path + i + '.jpg'%>" class="img-fluid" alt="Image unavailable" style="max-height: 300px;">
+            </div>
+            <%}%>
+        </div>
+        <!-- Left and right controls -->
+        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+            <i class="fas fa-chevron-circle-left controls text-info"></i>
+        </a>
+        <a class="carousel-control-next " href="#demo" data-slide="next">
+            <i class="fas fa-chevron-circle-right controls text-info"></i>
+        </a>
+    </div>
+
+    <div class="buttons d-none d-md-flex justify-content-center mt-5">
+        <a class="btn btn-lg text-white w-100 rounded-0 text-center btn-success mx-3" onclick="validate()" id="addToCartBtnCarousel">
+            Add to Cart
+        </a>
+        
+        <a class="btn btn-lg text-white w-100 rounded-0 text-center btn-warning mx-3" href="/cart">Buy Now</a>
+    </div>
+
+
+
+</section>

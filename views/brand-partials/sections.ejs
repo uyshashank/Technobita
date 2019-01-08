@@ -1,0 +1,82 @@
+<style>
+    section::-webkit-scrollbar {
+        width: 0;
+    }
+
+    .p_image {
+        display: block;
+        position: relative;
+        margin: auto;}
+</style>
+<%
+var logo = "/images/brandLogos/";
+%>
+
+
+<div class="section">
+    <div class="container mt-2">
+        <div class="row">
+            <div class="col-md-2 d-none d-md-block">
+                <h2 style="margin-top:80px;">All Brands</h2>
+                <ul class="ml-4">
+                    <% for(var i = 0; i< allBrands.length; i++){  %>
+                    <li class="my-3" style="list-style: none">
+                        <i class="fas fa-angle-right"></i>
+
+                        <a href=<%='/find/' + allBrands[i] %>>
+                            <%= allBrands[i] %>
+                        </a>
+                    </li>
+                    <%}%>
+                </ul>
+            </div>
+            <div class="col-md-10">
+                <h2 class="text-center">
+                    <img src="<%= logo + brand_name.toLowerCase() + '.jpg' %>" alt="Brand Logo" class="img-fluid" style="width:140px;">
+                </h2>
+                <section class="mt-2" style="height:80vh;overflow:scroll;">
+                    <% for(var i = 0; i< jsonFilePath.length; i++){  %>
+                    <div class="row my-4">
+                        <div class="col-md-4">
+                            <a href="<%= brand_name + '/' + products[i] %>">
+                                <img src="<%=imgFile[i]%>" alt="Image Error" class="p_image mt-2 w-75 img-fluid">
+                            </a>
+                        </div>
+
+                        <div class="col-md-8">
+                            <a href="<%= brand_name + '/' + products[i] %>">
+                                <h5 class="mt-3 ml-1">
+                                    <%= jsonFile[i][1].general_information[0].body %>
+                                </h5>
+                                <!--Name-->
+                            </a>
+                            <div name="rating" class="badge badge-warning text-white rating">
+                                <i class="fas fa-star"></i> Specifications
+                            </div>
+                            <ul class="ml-4">
+                                <li>
+                                    <%= jsonFile[i][1].general_information[1].body %>
+                                </li>
+                                <!--OS-->
+                                <li>
+                                    <%= jsonFile[i][1].memory[0].body %>
+                                </li>
+                                <!--RAM-->
+                                <li>
+                                    <%= jsonFile[i][1].processor[0].body %>
+                                </li>
+                                <!--CPU-->
+                                <li>
+                                    <%= jsonFile[i][1].storage[0].body %>
+                                </li>
+                                <!--HDD-->
+                            </ul>
+                        </div>
+                    </div>
+                    <%}%>
+                </section>
+
+            </div>
+        </div>
+    </div>
+</div>

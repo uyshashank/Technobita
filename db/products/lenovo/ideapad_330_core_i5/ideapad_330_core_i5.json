@@ -1,0 +1,146 @@
+[
+    [
+        "General Information",
+        "Display",
+        "Memory",
+        "Physical Specification",
+        "Processor",
+        "Storage",
+        "Power",
+        "Sound",
+        "Other Details",
+        "Pre-installed Applications"
+    ],
+
+    {
+        "general_information": [
+            {
+                "title": "Model Name",
+                "body": "Lenovo Ideapad 330 Core i5 (8th Gen)"
+            },
+            {
+                "title": "Operating System",
+                "body": "DOS"
+            },
+            {
+                "title": "Price",
+                "body": "27000"
+            }
+        ],
+        "display": [
+            {
+                "title": "Screen Size",
+                "body": "15.6-inch"
+            },
+            {
+                "title": "Resolution",
+                "body": "1366 x 768"
+            },
+            {
+                "title": "Advanced Display Features",
+                "body": "Featuring HD anti-glare resolution on a 15.6-inch display, the Ideapad 330 delivers powerful visuals on the go."
+            }
+        ],
+        "memory": [
+            {
+                "title": "RAM Size",
+                "body": "8 GB"
+            },
+            {
+                "title": "RAM Details",
+                "body": "DDR4"
+            }
+        ],
+        "physical_specs": [
+            {
+                "title": "Weight",
+                "body": "2.2 Kg"
+            },
+            {
+                "title": "Color",
+                "body": "Platinum Grey"
+            },
+            {
+                "title": "Height | Width",
+                "body": "23 mm | 26 cm"
+            },
+            {
+                "title": "Ports and Sensors",
+                "body": "USB 3.0 : 2 | HDMI Ports : 1 | Audio-out : 1 | Ethernet Port : 1 | Microphone Port : 1 | Card-Reader : 4-in-1 Card reader" 
+            }
+        ],
+        "processor": [
+            {
+                "title": "Processor",
+                "body": "Intel® Core™ i5-8250U"
+            },
+            {
+                "title": "Processor Speed",
+                "body": "1.60 GHz"
+            },
+            {
+                "title": "Processor Count",
+                "body": "4"
+            },
+            {
+                "title": "GPU",
+                "body": "AMD Radeon 530 2GB GDDR5"
+            }
+
+        ],
+        "storage": [
+            {
+                "title": "Storage Drive Type",
+                "body": "Mechanical Hard Drive"
+            },
+            {
+                "title": "HDD Details",
+                "body": "2 TB"
+            }
+        ],
+        "power": [
+            {
+                "title": "Battery",
+                "body": "2 Lithium ion Cells"
+            },
+            {
+                "title": "Lithium Battery Energy",
+                "body": "35 Watt Hours"
+            },
+            {
+                "title": "Battery Life",
+                "body": "Average Upto 5 Hours"
+            },
+            {
+                "title": "Battery Type",
+                "body": "1 Lithium Polymer Battery"
+            },
+            {
+                "title": "Battery Weight",
+                "body": "100 Grams"
+            }
+        ],
+        "sound": [
+            {
+                "title": "Audio Details",
+                "body": "Dolby Audio"
+            }
+        ],
+        "other_details": [
+            {
+                "title": "Warranty Details",
+                "body": "This genuine Lenovo laptop comes with 1 year domestic warranty from Lenovo covering manufacturing defects and not covering physical damage. For more details, see Manufacturer's Website."
+            },
+            {
+                "title": "In the Box",
+                "body": "Laptop | Battery | Charger | User Manual"
+            }
+        ],
+        "pre_installed_apps": [
+            {
+                "title": "OS",
+                "body": "DOS"
+            }
+        ]
+    }
+]

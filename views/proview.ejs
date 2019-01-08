@@ -1,0 +1,20 @@
+<% include home-partials/header %>
+
+<style>
+    .carouselBox {
+        border-right: 1px solid lightgrey;
+    }
+</style>
+<div class="container">
+    <div class="row">
+        <div class="col-md-5 carouselBox d-flex align-items-center">
+            <% include proview-partials/carousel %>
+        </div>
+        <div class="col-md-7" style="height:90vh;overflow:scroll;">
+            <% include proview-partials/sections %>
+        </div>
+    </div>
+
+</div>
+<script src="/js/script.js"></script>
+<% include home-partials/footer %>

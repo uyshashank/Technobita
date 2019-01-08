@@ -1,0 +1,114 @@
+.proview-hero {
+  max-width: 400px; }
+  .proview-hero .controls {
+    font-size: 30px; }
+
+.heading {
+  font-family: 'Encode Sans Condensed', sans-serif;
+  font-weight: 800; }
+
+.writer {
+  margin-top: -7px; }
+
+.box-main-rating {
+  position: relative;
+  border: 1px solid dimgrey;
+  width: 130px;
+  height: 150px; }
+  .box-main-rating .out-of-five {
+    background-color: dimgrey;
+    position: relative;
+    top: 5%;
+    right: auto;
+    left: auto;
+    bottom: 0;
+    height: 50px; }
+
+* {
+  padding: 0;
+  margin: 0; }
+
+#baap {
+  border-bottom: 2px solid white; }
+
+.mainNavbar {
+  background-color: #232F3F;
+  border-bottom: 2px solid #FFC107; }
+  .mainNavbar .logo {
+    width: 110px; }
+  .mainNavbar #menu-item a {
+    color: white; }
+    .mainNavbar #menu-item a:hover {
+      border-bottom: 2px solid #FFC107;
+      margin-bottom: -2px; }
+  .mainNavbar #search-btn {
+    background-color: #FFC107; }
+  .mainNavbar .search-field {
+    height: 34px; }
+  .mainNavbar #toggleBtn {
+    border: none; }
+    .mainNavbar #toggleBtn i {
+      color: #FFC107; }
+
+.secondaryNavbar {
+  background-color: #232F3F;
+  height: 50px;
+  box-shadow: 0pt 4pt 4pt 0pt lightgray;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px; }
+  .secondaryNavbar a {
+    color: white;
+    margin: auto 0px; }
+  .secondaryNavbar #searchIcon:hover {
+    cursor: pointer; }
+
+.secondaryNavbarToggle {
+  background-color: #232F3F;
+  height: 50px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px; }
+  .secondaryNavbarToggle a {
+    color: white;
+    margin: auto 0px; }
+  .secondaryNavbarToggle #searchIcon:hover {
+    cursor: pointer; }
+
+#searchBarNav {
+  display: none;
+  position: static;
+  background-color: white;
+  box-shadow: 0pt 4pt 4pt 0pt lightgray; }
+  #searchBarNav #search-btn {
+    background-color: #FFC107; }
+
+#warningSmall {
+  display: none; }
+
+.btn-view-all {
+  background-color: #232f3f;
+  border: 1px solid #232f3f;
+  color: white; }
+  .btn-view-all:hover {
+    background-color: white;
+    border: 1px solid #232f3f;
+    color: #232f3f; }
+
+.product .product-img {
+  }
+
+.product .product-overview {
+  color: black;
+  font-size: 12px; }
+  .product .product-overview:hover {
+    color: darkslategrey; }
+
+.overviewHeading {
+  background-color: #232f3f; }
+
+.hero {
+  padding: 0;
+  margin: 0; }
+
+.brandImg:hover {
+  transform: scale(1.1);
+  transition: 0.2s; }

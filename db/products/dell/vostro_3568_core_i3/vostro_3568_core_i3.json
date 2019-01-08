@@ -1,0 +1,157 @@
+[
+    [
+        "General Information",
+        "Display",
+        "Connectivity",
+        "Memory",
+        "Physical Specification",
+        "Processor",
+        "Storage",
+        "Power",
+        "Sound",
+        "Keyboard",
+        "Pre-installed Applications",
+        "Warranty and Support"        
+    ],
+    
+    {
+        "general_information": [
+            {
+                "title": "Model Name",
+                "body": "Dell Vostro 3568 Core i3"
+            },
+            {
+                "title": "Launch Date",
+                "body": "09-07-2018"
+            },
+            {
+                "title": "Operating System",
+                "body": "Windows 10"
+            },
+            {
+                "title": "Laptop Type",
+                "body": "Notebook"
+            },
+            {
+                "title": "Price",
+                "body": "38000"
+            }
+        ],
+        "display": [
+            {
+                "title": "Resolution",
+                "body": "1366 x 768"
+            },
+            {
+                "title": "Display Size",
+                "body": "15.5 inches"
+            },
+            {
+                "title": "Display Technology",
+                "body": "HD"
+            }
+        ],
+        "connectivity": [
+            {
+                "title": "Wireless",
+                "body": "Yes"
+            },
+            {
+                "title": "Pointing Device",
+                "body": "Touchpad"
+            },            
+            {
+                "title": "Bluetooth",
+                "body": "Yes"
+            }
+        ],
+        "memory": [
+            {
+                "title": "RAM Size",
+                "body": "4 GB"
+            },
+            {
+                "title": "Ram Type",
+                "body": "DDR4"
+            }
+        ],
+        "physical_specs": [
+            {
+                "title": "Weight",
+                "body": "2.5 Kg"
+            },
+            {
+                "title": "Color",
+                "body": "Black"
+            },
+            {
+                "title": "Height and Width",
+                "body": "24 mm | 38 cm"
+            },
+            {
+                "title": "Dimensions",
+                "body": "26 x 38 x 2.4 cm"
+            },
+            {
+                "title": "Ports & CD Drive",
+                "body": "USB 2.0 : 1 | USB 3.0 : 2 | HDMI : 1 | Audio Out : 1 | Ethernet : 1 | Microphone Port : 1"
+            }
+        ],
+        "processor": [
+            {
+                "title": "CPU",
+                "body": "Intel Core i3-7020U (7th Gen)"
+            },
+            {
+                "title": "Clock Speed",
+                "body": "2.3 GHz"
+            },
+            {
+                "title": "GPU",
+                "body": "Intel HD Graphics 620"
+            }
+        ],
+        "storage": [
+            {
+                "title": "Hard Disk Technology",
+                "body": "Mechanical Hard Disk"
+            },
+            {
+                "title": "Capacity",
+                "body": "1 TB"
+            }
+        ],
+        "power": [
+            {
+                "title": "Battery",
+                "body": "2 Cell Battery"
+            },
+            {
+                "title": "Lithium Ion Battery Energy Content",
+                "body": "40 Watt Hours"
+            },
+            {
+                "title": "Battery Weight",
+                "body": "85 Grams"
+            },
+            {
+                "title": "Battery Type",
+                "body": "Li-ion"
+            }
+        ],
+        "sound": [],
+        "keyboard": [],
+        "pre_installed_apps": [
+            {
+                "title": "OS",
+                "body": "Windows 10"
+            }
+        ],
+        "warranty_manufacturer_info": [
+            {
+                "title": "Warranty",
+                "body": "1 Year Manufacturer warranty"
+            }
+        ]
+    }
+]

@@ -1,0 +1,179 @@
+[
+    [
+        "General Information",
+        "Display",
+        "Connectivity",
+        "Memory",
+        "Physical Specification",
+        "Processor",
+        "Storage",
+        "Power",
+        "Sound",
+        "Keyboard",
+        "Pre-installed Applications",
+        "Warranty and Manufacturer's Information"        
+    ],
+    
+    {
+        "general_information": [
+            {
+                "title": "Model Name",
+                "body": "HP Spectre x360 Core i5"
+            },
+            {
+                "title": "Launch Date",
+                "body": "March 2018"
+            },
+            {
+                "title": "Operating System",
+                "body": "Windows 10"
+            },
+            {
+                "title": "Laptop Type",
+                "body": "Convertible Laptop"
+            },
+            {
+                "title": "Price",
+                "body": "50000"
+            }
+        ],
+        "display": [
+            {
+                "title": "Screen Size",
+                "body": "13.3 inches"
+            },
+            {
+                "title": "Resolution",
+                "body": "1920 x 1080"
+            },
+            {
+                "title": "Display Type",
+                "body": "FHD"
+            }
+        ],
+        "connectivity": [
+            {
+                "title": "Connectivity Type",
+                "body": "Intel 802.11ac (2x2) Wi-Fi"
+            },
+            {
+                "title": "Wireless Type",
+                "body": "802.11ac"
+            },
+            {
+                "title": "Pointing Device",
+                "body": "Touchpad"
+            },            
+            {
+                "title": "Bluetooth",
+                "body": "v4.2 Combo"
+            }
+        ],
+        "memory": [
+            {
+                "title": "RAM Size",
+                "body": "8 GB"
+            },
+            {
+                "title": "Ram Type",
+                "body": "DDR4"
+            }
+        ],
+        "physical_specs": [
+            {
+                "title": "Weight",
+                "body": "1.26 Kg"
+            },
+            {
+                "title": "Color",
+                "body": "Dark Ash Silver"
+            },
+            {
+                "title": "Height and Width",
+                "body": "14 mm | 30.6 cm"
+            },
+            {
+                "title": "Product Dimensions",
+                "body": "21.8 x 30.6 x 1.4 cm"
+            },
+            {
+                "title": "Port & CD Drive",
+                "body": "USB 3.0 : 1 | Audio-out : 1 | No optical drive | MicroSD Card Reader"
+            }
+        ],
+        "processor": [
+            {
+                "title": "CPU",
+                "body": "Intel Core i5-8250U (8th Gen)"
+            },
+            {
+                "title": "Clock Speed",
+                "body": "1.6 GHz"
+            },
+            {
+                "title": "Processor Count",
+                "body": "4"
+            },
+            {
+                "title": "GPU",
+                "body": "Intel UHD Graphics 620"
+            }
+        ],
+        "storage": [
+            {
+                "title": "Storage Drive Type",
+                "body": "SSD"
+            },
+            {
+                "title": "Capacity",
+                "body": "360 GB"
+            }
+        ],
+        "power": [
+            {
+                "title": "Battery",
+                "body": "3 Cell"
+            },
+            {
+                "title": "Lithium Ion Battery Energy Content",
+                "body": "60 Watt Hours"
+            },
+            {
+                "title": "Battery Type",
+                "body": "Li-ion"
+            }
+        ],
+        "sound": [
+            {
+                "title": "Speaker Description",
+                "body": "Bang and Olufsen, quad speakers, HP Audio Boost"
+            },
+            {
+                "title": "Audio Details",
+                "body": "Headphones"
+            }
+        ],
+        "keyboard": [
+            {
+                "title": "Keyboard Type",
+                "body": "-"
+            },
+            {
+                "title": "Other Features",
+                "body": "-"
+            }
+        ],
+        "pre_installed_apps": [
+            {
+                "title": "OS",
+                "body": "Windows 10 Professional"
+            }
+        ],
+        "warranty_manufacturer_info": [
+            {
+                "title": "Warranty",
+                "body": "1 year onsite domestic warranty from HP covering manufacturing defects and not covering physical damage."
+            }
+        ]
+    }
+]

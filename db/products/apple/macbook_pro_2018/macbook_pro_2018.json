@@ -1,0 +1,176 @@
+[
+    [
+        "General Information",
+        "Display",
+        "Connectivity",
+        "Memory",
+        "Physical Specification",
+        "Processor",
+        "Storage",
+        "Webcam and Microphone",
+        "Power",
+        "Sound",
+        "Keyboard",
+        "Pre-installed Applications"
+    ],
+
+    {
+        "general_information": [
+            {
+                "title": "Model Name",
+                "body": "Apple Macbook Pro 2018 (15-inch)"
+            },
+            {
+                "title": "Operating System",
+                "body": "MacOS"
+            },
+            {
+                "title": "Price",
+                "body": "100000"
+            }
+        ],
+        "display": [
+            {
+                "title": "Screen Size",
+                "body": "15.4 inches"
+            },
+            {
+                "title": "Resolution",
+                "body": "2880 x 1800"
+            },
+            {
+                "title": "Other Details",
+                "body": "LED-backlit display with IPS technology |  2880x1800 native resolution at 220 pixels per inch with support for millions of colours"
+            }
+        ],
+        "connectivity": [
+            {
+                "title": "Wireless",
+                "body": "Wi-Fi : 802.11ac Wi-Fi wireless networking; IEEE 802.11a/b/g/n compatible"
+            },
+            {
+                "title": "Bluetooth",
+                "body": "v5"
+            }
+        ],
+        "memory": [
+            {
+                "title": "RAM Size",
+                "body": "16 GB"
+            },
+            {
+                "title": "Ram Details",
+                "body": "DDR4 | 2400MHz"
+            }
+        ],
+        "physical_specs": [
+            {
+                "title": "Weight",
+                "body": "1.83 Kg"
+            },
+            {
+                "title": "Color",
+                "body": "Space Grey"
+            },
+            {
+                "title": "Height | Width | Depth",
+                "body": "1.55 cm | 34.93 cm | 24.07 cm"
+            },
+            {
+                "title": "Ports",
+                "body": "Four Thunderbolt 3 (USB-C) ports with support for - Charging, DisplayPort, Thunderbolt (up to 40 Gbps), USB 3.1 Gen 2 (up to 10 Gbps)"
+            }
+        ],
+        "processor": [
+            {
+                "title": "CPU",
+                "body": "Intel Core i7 6-Core"
+            },
+            {
+                "title": "Clock Speed",
+                "body": "2.6 GHz"
+            },
+            {
+                "title": "Processor Details",
+                "body": "Turbo Boost up to 4.3GHz, with 9MB shared L3 cache"
+            },
+            {
+                "title": "GPU",
+                "body": "Radeon Pro 560X with 4GB of GDDR5 memory and automatic graphics switching | Intel UHD Graphics 630"
+            }
+        ],
+        "storage": [
+            {
+                "title": "Storage Drive Type",
+                "body": "SSD"
+            },
+            {
+                "title": "Capacity",
+                "body": "512 GB"
+            }
+        ],
+        "webcam_microphone": [
+            {
+                "title": "Camera",
+                "body": "720p FaceTime HD camera"
+            },
+            {
+                "title": "Video Support",
+                "body": "Simultaneously supports full native resolution on the built-in display at millions of colours"
+            },
+            {
+                "title": "Multiple Display",
+                "body": "Up to two displays with 5120x2880 resolution at 60Hz at over a billion colours | Up to four displays with 4096x2304 resolution at 60Hz at over a billion colours"
+            }
+        ],
+        "power": [
+            {
+                "title": "Battery and Power",
+                "body": "Up to 10 hours wireless web | Up to 10 hours iTunes movie playback | Up to 30 days of standby time"
+            },
+            {
+                "title": "Lithium Ion Battery Energy Content",
+                "body": "83.6 Watt Hours"
+            },
+            {
+                "title": "Battery Type",
+                "body": "Lithium Polymer Battery"
+            },
+            {
+                "title": "Charging Adapter",
+                "body": "87W USB-C Power Adapter"
+            }
+        ],
+        "sound": [
+            {
+                "title": "Speaker Description",
+                "body": "Stereo speakers with high dynamic range"
+            },
+            {
+                "title": "Microphone and Headphones",
+                "body": "Three microphones | 3.5mm headphone jack"
+            }
+        ],
+        "keyboard": [
+            {
+                "title": "Keyboard",
+                "body": "Full-sized backlit keyboard with:- 64 (US) or 65 (ISO) keys including four arrow keysTouch Bar with integrated Touch ID sensor | Ambient light sensor"
+            },
+            {
+                "title": "Touchpad",
+                "body": "Force Touch trackpad for precise cursor control and pressure-sensing capabilities; enables Force clicks, accelerators, pressure-sensitive drawing and Multi-Touch gestures"
+            }
+        ],
+        "pre_installed_apps": [
+            {
+                "title": "OS",
+                "body": "MacOS"
+            },
+            {
+                "title": "Built-in Apps",
+                "body": "Photos, iMovie, GarageBand, Mail, Safari, Siri and more"
+            }
+            
+        ]
+    }
+]

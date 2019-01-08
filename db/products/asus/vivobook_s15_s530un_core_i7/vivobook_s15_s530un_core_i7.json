@@ -1,0 +1,169 @@
+[
+    [
+        "General Information",
+        "Display",
+        "Connectivity",
+        "Memory",
+        "Physical Specification",
+        "Processor",
+        "Storage",
+        "Power",
+        "Sound",
+        "Other Features",
+        "Pre-installed Applications"
+    ],
+
+    {
+        "general_information": [
+            {
+                "title": "Model Name",
+                "body": "ASUS VivoBook S15 S530UN"
+            },
+            {
+                "title": "Operating System",
+                "body": "Windows 10 Home"
+            },
+            {
+                "title": "Price",
+                "body": "36000"
+            }
+        ],
+        "display": [
+            {
+                "title": "Screen Size",
+                "body": "15.6-inch"
+            },
+            {
+                "title": "Resolution",
+                "body": "1920 x 1080"
+            },
+            {
+                "title": "Other Details",
+                "body": "39.62cm(15.6”) LED-backlit Full HD (1920 x 1080) 16:9 matte display"
+            },
+            {
+                "title": "Advanced Display Features",
+                "body": "Advanced three-sided NanoEdge display with 86% screen-to-body ratio, 178° wide-view technology, ASUS Eye Care technology for up to 30% blue-light reduction"
+            }
+        ],
+        "connectivity": [
+            {
+                "title": "Wireless",
+                "body": "Wi-fi Master: Dual-band 802.11ac Wi-Fi with advanced Wi-Fi Master technology"
+            },
+            {
+                "title": "Bluetooth",
+                "body": "v4.2"
+            }
+        ],
+        "memory": [
+            {
+                "title": "RAM Size",
+                "body": "8 GB"
+            },
+            {
+                "title": "RAM Details",
+                "body": "2400MHz DDR4, expandable up to 16GB"
+            }
+        ],
+        "physical_specs": [
+            {
+                "title": "Weight",
+                "body": "1.8 Kg"
+            },
+            {
+                "title": "Height | Width | Depth",
+                "body": "1.8 cm | 36.14 cm | 24.35 cm"
+            },
+            {
+                "title": "Colors Available",
+                "body": "Icicle Gold | Gun Metal | Silver Blue | Star Grey | Firmament Green"
+            },
+            {
+                "title": "Ports and Sensors",
+                "body": "COMBO Audio Jack : 1 | Type-A USB 3.1 : 1 | USB 2.0 Port(s) : 2 | HDMI : 1 | Type-C™ USB 3.1 Gen 1 : 1 | MicroSD card reader : 1"
+            }
+        ],
+        "processor": [
+            {
+                "title": "Processor",
+                "body": "Intel® Core™ i7-8550U"
+            },
+            {
+                "title": "Processor Details",
+                "body": "1.8GHz quad-core with Turbo boost (up to 4.0GHz) and 8MB cache"
+            },
+            {
+                "title": "GPU",
+                "body": "NVIDIA® GeForce® MX150 2GB GDDR5"
+            }
+
+        ],
+        "storage": [
+            {
+                "title": "Storage Drive Type",
+                "body": "Dual Storage : HDD + SDD"
+            },
+            {
+                "title": "HDD Details",
+                "body": "1TB 5400-RPM SATA HDD"
+            },
+            {
+                "title": "SDD Details",
+                "body": "256GB M.2 SSD"
+            }
+        ],
+        "power": [
+            {
+                "title": "Battery and Power",
+                "body": "3 Cell 42 Watt hour Battery"
+            },
+            {
+                "title": "Adapter",
+                "body": "65W Power Adapter, Input : 100 -240 V AC, 50/60 Hz universal | Output : 19V DC, 3.42 A, 65W"
+            },
+            {
+                "title": "Fast Charging",
+                "body": "Fast charging to 60% in 49 minutes"
+            }
+        ],
+        "sound": [
+            {
+                "title": "Audio Details",
+                "body": "ASUS SonicMaster stereo audio system with surround-sound, smart amplifier for maximum audio performance | Array microphone with Cortana voice-recognition support | 3.5mm headphone jack"
+            }
+        ],
+        "other_specs": [
+            {
+                "title": "Keyboard",
+                "body": "Full-size backlit, with 1.4mm key travel"
+            },
+            {
+                "title": "Fingerprint",
+                "body": "Glass-covered with integrated fingerprint sensor supporting Windows Hello; intelligent palm-rejection"
+            },
+            {
+                "title": "Touchpad",
+                "body": "Precision touchpad (PTP) technology supports up to four-finger smart gestures"
+            },
+            {
+                "title": "WebCam",
+                "body": "HD Webcam"
+            },
+            {
+                "title": "Manufacturer Warranty",
+                "body": "1-year limited International hardware warranty. (Different by country)"
+            }
+        ],
+        "pre_installed_apps": [
+            {
+                "title": "OS",
+                "body": "Windows 10 Home"
+            },
+            {
+                "title": "ASUS Apps",
+                "body": "ASUS Splendid, ASUS Eye Care, ASUS Tru2life Video, ASUS AudioWizard"
+            }
+        ]
+    }
+]

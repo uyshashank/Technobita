@@ -1,0 +1,153 @@
+[
+    [
+        "General Information",
+        "Display",
+        "Connectivity",
+        "Memory",
+        "Physical Specification",
+        "Processor",
+        "Storage",
+        "Power",
+        "Sound",
+        "Other Features",
+        "Pre-installed Applications"
+    ],
+
+    {
+        "general_information": [
+            {
+                "title": "Model Name",
+                "body": "ASUS VivoBook Pro 15 N580VD"
+            },
+            {
+                "title": "Operating System",
+                "body": "Windows 10 Home"
+            },
+            {
+                "title": "Price",
+                "body": "67000"
+            }
+        ],
+        "display": [
+            {
+                "title": "Screen Size",
+                "body": "15.6-inch"
+            },
+            {
+                "title": "Resolution",
+                "body": "3840 x 2160"
+            },
+            {
+                "title": "Other Details",
+                "body": "LED backlit UHD (3840x2160) 60Hz Anti-Glare Panel with 72% NTSC (Optional) with 178˚ wide-viewing angle display"
+            }
+        ],
+        "connectivity": [
+            {
+                "title": "Wireless",
+                "body": "Wi-fi: Integrated 802.11 AC (2x2)"
+            },
+            {
+                "title": "Bluetooth",
+                "body": "v4.1"
+            }
+        ],
+        "memory": [
+            {
+                "title": "RAM Details",
+                "body": "2 x SO-DIMM socket , up to 16 GB SDRAM(Optional)"
+            }
+        ],
+        "physical_specs": [
+            {
+                "title": "Weight",
+                "body": "2.29 Kg"
+            },
+            {
+                "title": "Color",
+                "body": "Gold"
+            },
+            {
+                "title": "Height | Width | Depth",
+                "body": "19.2 mm | 38.0 cm | 25.6 cm"
+            },
+            {
+                "title": "Ports and Sensors",
+                "body": "Microphone-in/Headphone-out jack : 1 | VGA port : 1 | Type A USB3.0 (USB3.1 GEN1) : 1 | Type C USB3.0 (USB3.1 GEN1) support display : 1 | 2 x USB 2.0 port(s) : 2 | RJ45 LAN Jack for LAN insert : 1 | HDMI : 1 | SD card reader : 1"
+            }
+        ],
+        "processor": [
+            {
+                "title": "Processor",
+                "body": "Intel® Core™ i7 7700HQ"
+            },
+            {
+                "title": "Chipset",
+                "body": "Intel® HM175 Express Chipset"
+            },
+            {
+                "title": "GPU",
+                "body": "NVIDIA GeForce GTX 1050, with 4GB GDDR5 VRAM"
+            }
+
+        ],
+        "storage": [
+            {
+                "title": "Storage Drive Type",
+                "body": "HDD and SDD"
+            },
+            {
+                "title": "HDD Details",
+                "body": "1TB 5400RPM SATA HDD"
+            },
+            {
+                "title": "SDD Details",
+                "body": "128GB SATA3 SSD"
+            }
+        ],
+        "power": [
+            {
+                "title": "Battery and Power",
+                "body": "3 Cell"
+            },
+            {
+                "title": "Adapter",
+                "body": "Input : 100 -240 V AC, 50/60 Hz universal | Output : 19 V DC, 6.3 A, 120 W"
+            }
+        ],
+        "sound": [
+            {
+                "title": "Audio Details",
+                "body": "ASUS SonicMaster Technology | Harman kardon"
+            }
+        ],
+        "other_specs": [
+            {
+                "title": "Keyboard",
+                "body": "Illuminated Chiclet Keyboard"
+            },
+            {
+                "title": "Card Reader",
+                "body": "Multi-format card reader"
+            },
+            {
+                "title": "WebCam",
+                "body": "HD Web Camera"
+            },
+            {
+                "title": "Certificates",
+                "body": "UL, FCC Compliance, BSMI, CCC, CB, Energy star"
+            },
+            {
+                "title": "Manufacturer Warranty",
+                "body": "1-year limited International hardware warranty. (Different by country)"
+            }
+        ],
+        "pre_installed_apps": [
+            {
+                "title": "OS",
+                "body": "Windows 10 Home"
+            }
+        ]
+    }
+]

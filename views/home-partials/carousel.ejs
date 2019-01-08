@@ -1,0 +1,78 @@
+<!--Carousel Slideshow for >md screens-->
+<%
+var deskCarousel = {
+    link:"/images/carousel/"
+}
+
+var brandLogos = {
+    link:"/images/brandLogos/"
+}
+var brandLogoImg = [brandLogos.link + "acer.jpg",
+                    brandLogos.link + "apple.jpg",
+                    brandLogos.link + "asus.jpg",
+                    brandLogos.link + "dell.jpg",
+                    brandLogos.link + "hp.jpg",
+                    brandLogos.link + "lenovo.jpg"
+                   ];
+var brandName = ["Acer",
+                 "Apple",
+                 "Asus",
+                 "Dell",
+                 "HP",
+                 "Lenovo"
+                   ];
+%>
+
+<section class="hero container-fluid d-none d-md-flex">
+    <div id="demo" class="carousel slide" data-ride="carousel">
+
+        <!-- Indicators -->
+        <ul class="carousel-indicators">
+            <li data-target="#demo" data-slide-to="0" class="active"></li>
+            <li data-target="#demo" data-slide-to="1"></li>
+            <li data-target="#demo" data-slide-to="2"></li>
+        </ul>
+
+        <!-- The slideshow -->
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="<%=deskCarousel.link + 1 + '.jpg'%>" class="img-fluid" alt=" ">
+            </div>
+            <div class="carousel-item">
+                <img src="<%=deskCarousel.link + 2 + '.jpg'%>" class="img-fluid" alt=" ">
+            </div>
+            <div class="carousel-item">
+                <img src="<%=deskCarousel.link + 3 + '.jpg'%>" class="img-fluid" alt=" ">
+            </div>
+        </div>
+
+
+        <!-- Left and right controls -->
+        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#demo" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </a>
+
+    </div>
+</section>
+
+<section class="container mt-3">
+    <div class="row mx-0 ml-4">
+        <% for(var x =0;x<6;x++){ %>
+        <div class="col mx-0 text-center">
+            <a href="/find/<%= brandName[x].toLowerCase() %>">
+                <div class="card border-0" style="width: 7rem;">
+                    <img class="card-img-top brandImg" src="<%= brandLogoImg[x] %>" alt="Card image cap">
+                    <div class="card-body">
+                        <p class="card-title text-dark">
+                            <%= brandName[x] %>
+                        </p>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <%}%> 
+    </div>
+</section>
