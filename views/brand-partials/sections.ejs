@@ -10,6 +10,7 @@
 </style>
 <%
 var logo = "/images/brandLogos/";
+brand_name = brand_name.toLowerCase();
 %>
 
 
@@ -23,7 +24,7 @@ var logo = "/images/brandLogos/";
                     <li class="my-3" style="list-style: none">
                         <i class="fas fa-angle-right"></i>
 
-                        <a href=<%='/find/' + allBrands[i] %>>
+                        <a href=<%='/find/' + allBrandsLower[i] %>>
                             <%= allBrands[i] %>
                         </a>
                     </li>
