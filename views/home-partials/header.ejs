@@ -29,10 +29,16 @@
 </head>
 
 <body>
-    <div class="row w-100 bg-white">
-        <div class="col text-center text-dark">
-            Note: This website was developed for a college project. This is not a real online shoppping website from where you can buy products. 
-            We do not sell any product online. The prices are also not the real prices of that particular product.
+    <div class="container">
+        <div class="row w-100 bg-white">
+            <div class="col text-center text-dark">
+                <h6 class="text-muted" style="font-size:12px;">
+                    Note: This website was developed for a college project. This is not a real online shoppping website
+                    from where you can buy products.
+                    We do not sell any product online. The prices are also not the real prices of that particular
+                    product.
+                </h6>
+            </div>
         </div>
     </div>
     <section id="baap" class="sticky-top">
@@ -58,7 +64,7 @@
                         </div>
                     </div>
                 </form>
-                
+
                 <!--Collapsible menu-->
                 <div class="collapse text-center navbar-collapse text-white justify-content-end" id="content">
                     <ul class="navbar-nav mx-3" id="menu-item">
@@ -72,17 +78,17 @@
                         </li>
                         <li class="nav-item">
                             <div class="dropdown">
-                                <a class="nav-link dropdown-toggle" id="dropdownMenu" data-toggle="dropdown" aria-haspopup="true"
-                                    aria-expanded="false">
+                                <a class="nav-link dropdown-toggle" id="dropdownMenu" data-toggle="dropdown"
+                                    aria-haspopup="true" aria-expanded="false">
                                     Hi,
                                     <%= userName %>
                                 </a>
-                                <div class="dropdown-menu" aria-labelledby="dropdownMenu">                                    
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenu">
                                     <a class="dropdown-item text-dark" href="/logout">Log Out</a>
                                 </div>
                             </div>
                         </li>
-                        
+
                         <% } else if(loggedIn === "false"){ %>
                         <li class="nav-item">
                             <a href="/login" class="nav-link">Login</a>
@@ -111,20 +117,20 @@
                         <li class="list-inline-item">
                             <a href="/">All Brands</a>
                         </li>
-                        <% if(loggedIn === "true") { %>                        
-                            <li class="list-inline-item text-white">
-                                <div class="dropdown">
-                                    <a class="dropdown-toggle" id="dropdownMenu" data-toggle="dropdown" aria-haspopup="true"
-                                        aria-expanded="false" href="">
-                                        Hi,
-                                        <%= userName %>
-                                    </a>
-                                    <div class="dropdown-menu" aria-labelledby="dropdownMenu">
-                                        <a href="/cart" class="dropdown-item text-dark">Your Cart <i class="fas fa-shopping-cart"></i></a>
-                                        <a class="dropdown-item text-dark" href="/logout">Log Out</a>
-                                    </div>
+                        <% if(loggedIn === "true") { %>
+                        <li class="list-inline-item text-white">
+                            <div class="dropdown">
+                                <a class="dropdown-toggle" id="dropdownMenu" data-toggle="dropdown" aria-haspopup="true"
+                                    aria-expanded="false" href="">
+                                    Hi,
+                                    <%= userName %>
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenu">
+                                    <a href="/cart" class="dropdown-item text-dark">Your Cart <i class="fas fa-shopping-cart"></i></a>
+                                    <a class="dropdown-item text-dark" href="/logout">Log Out</a>
                                 </div>
-                            </li>
+                            </div>
+                        </li>
                         <% } else if(loggedIn === "false"){ %>
                         <li class="list-inline-item">
                             <a href="/login">Login</a>
