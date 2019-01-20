@@ -17,7 +17,7 @@
     <!--Font Awesome-->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
         crossorigin="anonymous">
-
+    <script src="../../js/script.js"></script>
     <style>
         #dropdownMenu:hover{
             border-bottom: 0;
@@ -29,18 +29,6 @@
 </head>
 
 <body>
-    <div class="container">
-        <div class="row w-100 bg-white">
-            <div class="col text-center text-dark">
-                <h6 class="text-muted" style="font-size:12px;">
-                    Note: This website was developed for a college project. This is not a real online shoppping website
-                    from where you can buy products.
-                    We do not sell any product online. The prices are also not the real prices of that particular
-                    product.
-                </h6>
-            </div>
-        </div>
-    </div>
     <section id="baap" class="sticky-top">
         <!--Primary Navigation bar-->
         <nav class="navbar navbar-expand-md navbar-light mainNavbar">
@@ -72,6 +60,7 @@
                             <a href="/" class="nav-link">Home</a>
                         </li>
 
+
                         <% if(loggedIn === "true") { %>
                         <li class="nav-item">
                             <a href="/cart" class="nav-link"><i class="fas fa-shopping-cart"></i> Cart</a>
@@ -84,6 +73,9 @@
                                     <%= userName %>
                                 </a>
                                 <div class="dropdown-menu" aria-labelledby="dropdownMenu">
+                                    
+                                    <a class="dropdown-item text-dark" href="/addProduct">Add Product</a>
+                                    
                                     <a class="dropdown-item text-dark" href="/logout">Log Out</a>
                                 </div>
                             </div>
@@ -127,6 +119,9 @@
                                 </a>
                                 <div class="dropdown-menu" aria-labelledby="dropdownMenu">
                                     <a href="/cart" class="dropdown-item text-dark">Your Cart <i class="fas fa-shopping-cart"></i></a>
+                                    
+                                    <a href="/addProduct" class="dropdown-item text-dark">Add Product</a>
+                                    
                                     <a class="dropdown-item text-dark" href="/logout">Log Out</a>
                                 </div>
                             </div>

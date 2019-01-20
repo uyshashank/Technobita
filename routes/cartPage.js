@@ -3,14 +3,16 @@ const cookieFunction = require('../cookie/cookieFunction');
 
 const cart = (req, res) => {
     // Checking Cookie copy to all
-    var loggedIn = cookieFunction.cookieHandler(req, res);
-    var userName = cookieFunction.user();
-    var cartItems = cookieFunction.cartItems();    
-    var path = [],
+    let loggedIn = cookieFunction.cookieHandler(req, res);
+    let userName = cookieFunction.user();
+    let cartItems = cookieFunction.cartItems();    
+    let path = [],
         imgpath = [],
         jsonFile = [];
+   
+
     if (cartItems != 'null') {
-        for (var i = 0; i < cartItems.length; i++) {
+        for (let i = 0; i < cartItems.length; i++) {
             path.push("db/products/" + cartItems[i].title + "/" + cartItems[i].body + "/" + cartItems[i].body + ".json");
             imgpath.push("/db/products/" + cartItems[i].title + "/" + cartItems[i].body + "/images/1.jpg");
             jsonFile[i] = JSON.parse(fs.readFileSync(path[i]));
@@ -21,7 +23,7 @@ const cart = (req, res) => {
             userName,
             jsonFile,
             imgpath,
-            cartItems
+            cartItems            
         });
     }else{
         res.render('cart', {

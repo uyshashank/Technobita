@@ -1,13 +1,10 @@
 const express = require('express');
 const app = express();
-
 var port = process.env.PORT || 5000;
-
 var bodyParser = require('body-parser');
 
 // SettingUp body-parser
 app.use(bodyParser.urlencoded({ extended: true }));
-
 
 // Custom modules
 const homePage = require('./routes/homePage');
@@ -19,7 +16,6 @@ const logoutPage = require('./routes/logout');
 const cartPage = require('./routes/cartPage');
 const checkoutPage = require('./routes/checkoutPage');
 const orderPlacedPage = require('./routes/orderPlacedPage');
-
 
 // Setting Template Engine
 app.set('view engine', 'ejs');
