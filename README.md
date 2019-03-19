@@ -1,11 +1,15 @@
-An online shopping website prototype.
+Technobita is an Online Shopping Site Prototype. 
 
-Technologies
-Frontend
-1) HTML, CSS
-2) Javascript
-3) Bootstrap 4
+★ Front end technologies
+1) HTML, CSS, JavaScript
+2) Bootstrap 4 
 
-Backend
+★ Back end technologies
 1) Node.js
 2) Express.js
+
+★ Database
+1) Node.js File system
+
+★ Hosting Platform
+1) Heroku
