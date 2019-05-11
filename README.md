@@ -1,4 +1,4 @@
-Technobita is an Online Shopping Site Prototype. 
+Technobita is an Online Shopping Site. 
 
 ★ Front end technologies
 1) HTML, CSS, JavaScript
