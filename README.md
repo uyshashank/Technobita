@@ -1,4 +1,4 @@
-An online shopping website prototype.
+An online shopping website demo.
 
 Technologies
 Frontend
