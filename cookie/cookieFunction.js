@@ -1,5 +1,4 @@
 const fs = require('fs');
-
 var allcookies = {};
 const path = "./db/users.json";
 
@@ -8,9 +7,9 @@ function cookieHandler(req, res) {
     var statusCookie = req.get('Cookie'); //Checking existence of all cookies
 
     if (statusCookie === undefined || null) {
-        res.setHeader('Set-Cookie', ["loggedIn=false;" , "user=null", "cart=0"]); //setting up initial cookies
+        res.setHeader('Set-Cookie', ["loggedIn=false;", "user=null", "cart=0"]); //setting up initial cookies
         allcookies.loggedIn = "false";
-    } else {        
+    } else {
         var cookies = req.get('Cookie').split(';');
         var cookieLength = cookies.length;
         for (var i = 0; i < cookieLength; i++) {
@@ -19,7 +18,7 @@ function cookieHandler(req, res) {
             else if (cookies[i].trim().split('=')[0] === 'user')
                 allcookies.user = cookies[i].trim().split('=')[1];
             else if (cookies[i].trim().split('=')[0] === 'cart')
-                allcookies.cart = cookies[i].trim().split('cart=')[1];            
+                allcookies.cart = cookies[i].trim().split('cart=')[1];
         }
     }
     return allcookies.loggedIn;
@@ -48,24 +47,24 @@ function logoutUser(req, res) {
     }
 }
 
-function cartItems() {    
-    var allcookiesCartValue = allcookies.cart;    
-    var items = [];    
+function cartItems() {
+    var allcookiesCartValue = allcookies.cart;
+    var items = [];
 
-    if (allcookiesCartValue == 0 || undefined || null ) {            
+    if (allcookiesCartValue == 0 || undefined || null) {
         return 'null';
-    } else {                
-        var splitOne = allcookies.cart.split('::');              
-        
+    } else {
+        var splitOne = allcookies.cart.split('::');
+
         for (var i = 0; i < splitOne.length; i++) {
             items.push({
                 title: splitOne[i].split(',')[0].split('=')[1],
                 body: splitOne[i].split(',')[1].split('=')[1]
             });
-        }     //end of for   
+        } //end of for   
         return items;
     }
-    
+
 }
 module.exports = {
     cookieHandler,
