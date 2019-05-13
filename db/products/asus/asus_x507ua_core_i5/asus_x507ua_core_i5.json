@@ -1,0 +1,141 @@
+[
+    [
+        "General Information",
+        "Display",
+        "Connectivity",
+        "Memory",
+        "Physical Specification",
+        "Processor",
+        "Storage",
+        "Power",
+        "Sound",
+        "Other Features",
+        "Pre-installed Applications"
+    ],
+
+    {
+        "general_information": [
+            {
+                "title": "Model Name",
+                "body": "ASUS Laptop X507UA Core i5"
+            },
+            {
+                "title": "Operating System",
+                "body": "Windows 10 Home"
+            },
+            {
+                "title": "Price",
+                "body": "40000"
+            }
+        ],
+        "display": [
+            {
+                "title": "Screen Size",
+                "body": "15.6-inch"
+            },
+            {
+                "title": "Resolution",
+                "body": "1920 x 1080"
+            },
+            {
+                "title": "Other Details",
+                "body": "39.62cm(15.6) (16:9) LED-backlit FHD (1920x1080) 60Hz Anti-Glare Panel with 45% NTSC With ASUS Splendid"
+            }
+        ],
+        "connectivity": [
+            {
+                "title": "Wireless",
+                "body": "Wi-fi: Integrated 802.11b/g/n"
+            },
+            {
+                "title": "Bluetooth",
+                "body": "v4.0"
+            }
+        ],
+        "memory": [
+            {
+                "title": "RAM Details",
+                "body": "DDR4 2400MHz SDRAM, 1 x SO-DIMM socket, up to 8 GB SDRAM"
+            }
+        ],
+        "physical_specs": [
+            {
+                "title": "Weight",
+                "body": "1.68 Kg"
+            },
+            {
+                "title": "Height | Width | Depth",
+                "body": "21.9 mm | 36.5 cm | 26.6 cm"
+            },
+            {
+                "title": "Ports and Sensors",
+                "body": "COMBO Audio Jack : 1 | Type-A USB 3.0 (USB 3.1 Gen 1) : 1 | USB 2.0 Port(s) : 2 | HDMI : 1"
+            }
+        ],
+        "processor": [
+            {
+                "title": "Processor",
+                "body": "Intel® Core™ i5 8250U Processor"
+            },
+            {
+                "title": "Chipset",
+                "body": "Integrated Intel® CPU"
+            },
+            {
+                "title": "GPU",
+                "body": "Integrated Intel HD Graphics 520"
+            }
+
+        ],
+        "storage": [
+            {
+                "title": "Storage Drive Type",
+                "body": "HDD"
+            },
+            {
+                "title": "HDD Details",
+                "body": "1TB 5400-RPM SATA HDD"
+            }
+        ],
+        "power": [
+            {
+                "title": "Battery and Power",
+                "body": "3 Cell 33 Watt hour Battery"
+            },
+            {
+                "title": "Adapter",
+                "body": "Input : 100 -240 V AC, 50/60 Hz universal | Output : 19 V DC, 2.37 A, 45 W"
+            }
+        ],
+        "sound": [
+            {
+                "title": "Audio Details",
+                "body": "Built-in 2 W Stereo Speakers with Microphone | ASUS SonicMaster Technology"
+            }
+        ],
+        "other_specs": [
+            {
+                "title": "Keyboard",
+                "body": "Chiclet Keyboard"
+            },
+            {
+                "title": "Card Reader",
+                "body": "Multi-format card reader"
+            },
+            {
+                "title": "WebCam",
+                "body": "VGA Webcam"
+            },
+            {
+                "title": "Manufacturer Warranty",
+                "body": "1-year limited International hardware warranty. (Different by country)"
+            }
+        ],
+        "pre_installed_apps": [
+            {
+                "title": "OS",
+                "body": "Windows 10 Home"
+            }
+        ]
+    }
+]

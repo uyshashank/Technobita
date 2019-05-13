@@ -1,0 +1,70 @@
+<%//todaysDeals, latest, recommended object array has imported in this file
+var path="",link="";
+var headings = ["Today's Deals","Latest","Recommended"];
+var array = [todaysDeals,latest,recommended];
+var todaysDeals_paths = [];    //todaysDeals products img paths
+var latest_paths      = [];   //latest products img paths
+var recommended_paths = [];  //recommended products img paths
+var path_array = [todaysDeals_paths,latest_paths,recommended_paths];
+
+for(var i = 0;i<8;i++)
+{
+    path = "/db/products/" + todaysDeals[i].brand_name + "/" + todaysDeals[i].product_name + "/images" + "/1.jpg";     
+    todaysDeals_paths.push(path);
+    
+    path = "/db/products/" + latest[i].brand_name + "/" + latest[i].product_name + "/images" +"/1.jpg";    
+    latest_paths.push(path);
+    
+    path = "/db/products/" + recommended[i].brand_name + "/" + recommended[i].product_name + "/images" +"/1.jpg"; 
+    recommended_paths.push(path);
+}
+
+%>
+
+<section class="container mt-3">
+    <% for(var s = 0; s<3; s++){ %>
+    <div class="head mt-4 border-bottom">
+        <div class="section-title row">
+            <h5 class="col-8 my-2">
+                <%= headings[s] %>
+            </h5>            
+        </div>
+    </div>
+
+    <div class="row mb-3">
+        <% for(var x = 0,i=0; x<2; x++){ %>
+        <div class="body col-sm">
+            <% for(var y = 0; y<2; y++){ %>
+            <div class="row">
+                <% for(var z = 0; z<2; z++){ %>
+                <div class="product col text-center mt-3">
+                    <a href="<%= " find/" + array[s][i].brand_name + "/" + array[s][i].product_name %>" class="product-links">
+                        
+                        <div class="" style="min-height: 80px;max-height: 90px;">
+                            <img src="<%=path_array[s][i]%>" alt="" class="img-fluid product-img" style="max-height: inherit;min-height: inherit;" ><!-- here comes the img --->
+                        </div>
+                        <div class="product-overview mt-2" style="min-height: 90px; max-height: 90px;">
+                           <div name="rating" class="badge badge-warning text-white rating">
+                                <%= array[s][i].rating %> <i class="fas fa-star"></i>
+                            </div>
+                            <div name="product-title">
+                                <%= array[s][i].product_title %>
+                            </div>                            
+                            <div name="memory">
+                                <%= array[s][i].memory %>
+                            </div>
+                            <div name="storage">
+                                <%= array[s][i].storage %>
+                            </div>
+                            <% i++ %>
+                        </div>
+                    </a>
+                </div>
+                <% } %>
+            </div>
+            <% } %>
+        </div>
+        <% } %>
+    </div>
+    <% } %>
+</section>

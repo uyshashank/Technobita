@@ -1,0 +1,139 @@
+<script>
+    let x302skk39d = document.cookie.split('x302skk39d=e3d3')[1].split('z3d334')[0];
+</script>
+<style>
+    .creditCards img{
+        width: 40px;
+        margin: 0 6px;
+    }
+</style>
+
+<div class="container">
+    <div class="row w-100 bg-white">
+        <div class="col text-center text-dark">
+            <h6 class="text-muted" style="font-size:12px;">
+                Note: This website was developed for a college project. This is not a real online shoppping website
+                from where you can buy products.
+                We do not sell any product online. The prices are also not the real prices of that particular
+                product.
+            </h6>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="row mt-2">
+        <div class="col-md-6">
+            <h3 class="mt-5 text-secondary">Select Delivery Address</h3>
+            <form class="mt-3">
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <input type="text" class="form-control" id="fname" placeholder="Full Name">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <input type="number" class="form-control" id="mobile" placeholder="Mobile">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control" id="address" placeholder="Address Line 1">
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control" id="address" placeholder="Address Line 2">
+                </div>
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <input type="text" class="form-control" id="city" placeholder="City">
+                    </div>
+                    <div class="form-group col-md-4">
+                        <select id="state" class="form-control">
+                            <option selected>Select...</option>
+                            <option>Delhi</option>
+                            <option>Maharashtra</option>
+                            <option>Uttar Pradesh</option>
+                            <option>Punjab</option>
+                            <option>Rajasthan</option>
+                        </select>
+                    </div>
+                    <div class="form-group col-md-2">
+                        <input type="text" class="form-control" id="zip" placeholder="Zip">
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="col-md-6">
+            <h3 class="mt-5 text-secondary">Select Payment Method</h3>
+            <form>
+                <div class="crdCrd">
+                    <input type="radio" name="payment" id="crd">
+                    <label for="crd">Credit Card</label>
+                    <div class="row creditCards ml-3">
+                        <div>
+                            <img src="../../images/icons/visa.png" alt="visa" class="img-fluid">
+                        </div>
+                        <div>
+                            <img src="../../images/icons/maestro.png" alt="visa" class="img-fluid">
+                        </div>
+                        <div>
+                            <img src="../../images/icons/master-card.png" alt="visa" class="img-fluid">
+                        </div>
+                        <div>
+                            <img src="../../images/icons/american-express.png" alt="visa" class="img-fluid">
+                        </div>
+                        <div>
+                            <img src="../../images/icons/rupay.png" alt="visa" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="dbtCrd mt-3">
+                    <input type="radio" name="payment" id="dbtCrd">
+                    <label for="dbtCrd">Debit Card</label> <br>
+                    <select name="debitCard" id="dbtCrd" class="ml-3 w-50 text-secondary" style="height: 40px">
+                        <option value="null">Choose...</option>
+                        <option value="visa/masterCard">All Visa/MasterCard Debit Card</option>
+                        <option value="rupay">All RuPay Debit Cards</option>
+                        <option value="sbi">All SBI Maestro Debit Cards</option>
+                        <option value="cityBank">All City Bank Maestro Debit Cards</option>
+                    </select>
+                </div>
+
+                <div class="netBanking mt-3">
+                    <input type="radio" name="payment" id="netBanking">
+                    <label for="netBanking">Net Banking</label> <br>
+                    <select name="netBanking" id="netBanking" class="ml-3 w-50 text-secondary" style="height: 40px">
+                        <option value="null">Choose...</option>
+                        <option value="sbi">State Bank of India</option>
+                        <option value="sbi">South Indian Bank</option>
+                        <option value="sbi">City Bank</option>
+                        <option value="sbi">ICICI Bank</option>
+                        <option value="sbi">HDFC Bank</option>
+                        <option value="sbi">Canara Bank</option>
+                        <option value="sbi">Kotak Mahindra Bank</option>
+                    </select>
+                </div>
+
+                <div class="bhimUPI mt-3">
+                    <input type="radio" name="payment" id="bhimUPI">
+                    <label for="bhimUPI">BHIM UPI</label> <br>
+                    <div class="ml-3">
+                        <p class="text-muted">
+                            Please enter existing BHIM UPI ID
+                        </p>
+                        <input type="text" style="height:40px;max-width:270px;" class="pl-1" name="upiid" id="upiid"
+                            placeholder="Ex. PhoneNumber@upi">
+                    </div>
+                </div>
+
+                <div class="pod mt-3">
+                    <input type="radio" name="payment" id="pod" checked="checked">
+                    <label for="pod">Pay On Delivery (POD)</label> <br>
+                    <div class="ml-3">
+                        <p class="text-muted">
+                            We do not accept payment via Credit/Debit card on delivery.
+                        </p>
+                    </div>
+                </div>
+                <a class="btn btn-lg bg-warning text-white mt-1 ml-2 w-50 text-center" href="/orderPlaced">Place order</a>
+            </form>
+        </div>
+    </div>
+</div>

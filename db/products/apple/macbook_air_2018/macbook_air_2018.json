@@ -1,0 +1,176 @@
+[
+    [
+        "General Information",
+        "Display",
+        "Connectivity",
+        "Memory",
+        "Physical Specification",
+        "Processor",
+        "Storage",
+        "Webcam and Microphone",
+        "Power",
+        "Sound",
+        "Keyboard",
+        "Pre-installed Applications"
+    ],
+
+    {
+        "general_information": [
+            {
+                "title": "Model Name",
+                "body": "Apple Macbook Air 2018 (13-inch With Retina Display)"
+            },
+            {
+                "title": "Operating System",
+                "body": "MacOS"
+            },
+            {
+                "title": "Price",
+                "body": "90000"
+            }
+        ],
+        "display": [
+            {
+                "title": "Screen Size",
+                "body": "13.3 inches"
+            },
+            {
+                "title": "Resolution",
+                "body": "2560 x 1600"
+            },
+            {
+                "title": "Other Details",
+                "body": "LED-backlit display with IPS technology; 2560x1600 native resolution at 227 pixels per inch with support for millions of colours"
+            }
+        ],
+        "connectivity": [
+            {
+                "title": "Wireless",
+                "body": "Wi-Fi : 802.11ac Wi-Fi wireless snetworking | IEEE 802.11a/b/g/n compatible"
+            },
+            {
+                "title": "Bluetooth",
+                "body": "v4.2"
+            }
+        ],
+        "memory": [
+            {
+                "title": "RAM Size",
+                "body": "8 GB"
+            },
+            {
+                "title": "Ram Details",
+                "body": "2133MHz LPDDR3 onboard memory"
+            }
+        ],
+        "physical_specs": [
+            {
+                "title": "Weight",
+                "body": "1.25 Kg"
+            },
+            {
+                "title": "Color",
+                "body": "Space Grey"
+            },
+            {
+                "title": "Height | Width | Depth",
+                "body": "0.56 cm | 30.41 cm | 21.24 cm"
+            },
+            {
+                "title": "Ports",
+                "body": "Two Thunderbolt 3 (USB-C) ports with support for - Charging, DisplayPort, Thunderbolt (up to 40 Gbps), USB-C 3.1 Gen 2 (up to 10 Gbps)"
+            }
+        ],
+        "processor": [
+            {
+                "title": "CPU",
+                "body": "Intel Core i5 2-Core"
+            },
+            {
+                "title": "Clock Speed",
+                "body": "1.6GHz"
+            },
+            {
+                "title": "Processor Details",
+                "body": "Turbo Boost up to 3.6GHz, with 4MB L3 cache"
+            },
+            {
+                "title": "GPU",
+                "body": "Intel UHD Graphics 617 | Support for Thunderbolt 3–enabled external graphics processors (eGPUs)"
+            }
+        ],
+        "storage": [
+            {
+                "title": "Storage Drive Type",
+                "body": "PCIe-based SSD"
+            },
+            {
+                "title": "Capacity",
+                "body": "256 GB"
+            }
+        ],
+        "webcam_microphone": [
+            {
+                "title": "Camera",
+                "body": "720p FaceTime HD camera"
+            },
+            {
+                "title": "Video Support",
+                "body": "Simultaneously supports full native resolution on the built-in display at millions of colours"
+            },
+            {
+                "title": "Multiple Display",
+                "body": "One external display with 5120x2880 resolution at up to 60Hz | Up to two external displays with 4096x2304 resolution at up to 60Hz"
+            }
+        ],
+        "power": [
+            {
+                "title": "Battery and Power",
+                "body": "Up to 12 hours wireless web | Up to 13 hours iTunes movie playback | Up to 30 days of standby time"
+            },
+            {
+                "title": "Lithium Ion Battery Energy Content",
+                "body": "50.3 Watt Hour"
+            },
+            {
+                "title": "Battery Type",
+                "body": "Lithium Polymer Battery"
+            },
+            {
+                "title": "Charging Adapter",
+                "body": "30W USB-C Power Adapter; USB-C power port"
+            }
+        ],
+        "sound": [
+            {
+                "title": "Speaker Description",
+                "body": "Stereo Speakers"
+            },
+            {
+                "title": "Microphone and Headphones",
+                "body": "Three microphones | 3.5mm headphone jack"
+            }
+        ],
+        "keyboard": [
+            {
+                "title": "Keyboard",
+                "body": "Full-sized backlit keyboard with:- 78 (US) or 79 (ISO) individual LED-backlit keys, including 12 function keys and 4 arrow keys | Ambient light sensor"
+            },
+            {
+                "title": "Touchpad",
+                "body": "Force Touch trackpad for precise cursor control and pressure-sensing capabilities; enables Force clicks, accelerators, pressure-sensitive drawing and Multi-Touch gestures"
+            }
+        ],
+        "pre_installed_apps": [
+            {
+                "title": "OS",
+                "body": "MacOS"
+            },
+            {
+                "title": "Built-in Apps",
+                "body": "Photos, iMovie, GarageBand, Mail, Safari, Siri and more"
+            }
+            
+        ]
+    }
+]

@@ -1,0 +1,125 @@
+[
+    [
+        "General Information",
+        "Display",
+        "Memory",
+        "Physical Specification",
+        "Connectivity and Sound",
+        "Processor",
+        "Storage",
+        "Power",
+        "Other Details",
+        "Pre-installed Applications"
+    ],
+
+    {
+        "general_information": [
+            {
+                "title": "Model Name",
+                "body": "Acer Aspire 3 Pentium"
+            },
+            {
+                "title": "Operating System",
+                "body": "Windows 10 Home"
+            },
+            {
+                "title": "Price",
+                "body": "20000"
+            }
+        ],
+        "display": [
+            {
+                "title": "Screen Size",
+                "body": "15.6-inch"
+            },
+            {
+                "title": "Resolution",
+                "body": "1366 x 768"
+            }
+        ],
+        "memory": [
+            {
+                "title": "RAM Size",
+                "body": "4 GB"
+            },
+            {
+                "title": "RAM Details",
+                "body": "DDR4"
+            }
+        ],
+        "physical_specs": [
+            {
+                "title": "Weight (Approximate)",
+                "body": "2.2 Kg"
+            },
+            {
+                "title": "Color",
+                "body": "Black"
+            },
+            {
+                "title": "Height | Width",
+                "body": "21 mm | 38.1 cm"
+            },
+            {
+                "title": "Ports and Sensors",
+                "body": "USB 3.0 : 1 | USB 2.0 : 0 | HDMI : 1 | Audio-out : 1 | Microphone : Yes | Finger Print Reader : No"
+            }
+        ],
+        "connectivity_sound": [
+            {
+                "title": "Wireless Type",
+                "body": "801.11 AC"
+            }
+        ],
+        "processor": [
+            {
+                "title": "Processor",
+                "body": "Intel® Pentium™ Silver N5000 processor"
+            },
+            {
+                "title": "Processor Speed",
+                "body": "1.10 GHz"
+            },
+            {
+                "title": "GPU",
+                "body": "Intel® Graphics"
+            }
+        ],
+        "storage": [
+            {
+                "title": "Storage Drive Technology",
+                "body": "Mechanical Hard Drive"
+            },
+            {
+                "title": "HDD Size",
+                "body": "1 TB"
+            }
+        ],
+        "power": [
+            {
+                "title": "Battery",
+                "body": "2 Litium Ion Cells"
+            },
+            {
+                "title": "Battery Energy Content",
+                "body": "37 Watt Hours"
+            }
+        ],
+        "other_details": [
+            {
+                "title": "Warranty Details",
+                "body": "1 year limited onsite domestic warranty from Acer covering manufacturing defects and not covering physical damage. Register on brand website to activate warranty."
+            },
+            {
+                "title": "Pointing Device Type",
+                "body": "TouchPad"
+            }
+        ],
+        "pre_installed_apps": [
+            {
+                "title": "OS",
+                "body": "Windows 10 Home"
+            }
+        ]
+    }
+]

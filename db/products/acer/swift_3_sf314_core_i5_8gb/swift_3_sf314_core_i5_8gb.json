@@ -1,0 +1,173 @@
+[
+    [
+        "General Information",
+        "Display",
+        "Design",
+        "Memory",
+        "Physical Specification",
+        "Connectivity and Sound",
+        "Processor",
+        "Storage",
+        "Power",
+        "Other Details",
+        "Pre-installed Applications"
+    ],
+
+    {
+        "general_information": [
+            {
+                "title": "Model Name",
+                "body": "Acer Swift 3 SF314-53G Core i5"
+            },
+            {
+                "title": "Operating System",
+                "body": "Windows 10"
+            },
+            {
+                "title": "Price",
+                "body": "34000"
+            }
+        ],
+        "display": [
+            {
+                "title": "Screen Size",
+                "body": "14-inch"
+            },
+            {
+                "title": "Resolution",
+                "body": "1920 x 1080"
+            },
+            {
+                "title": "Display Details",
+                "body": "In-plane Switching (IPS) Technology | Full HD"
+            }
+        ],
+        "design": [
+            {
+                "title": "Looks",
+                "body": "Iron Man Theme"
+            },
+            {
+                "title": "Design Detail",
+                "body": "Experience a totally new level of enthusiasm while you play your favourite Avengers game on this efficient laptop. The laptop is not only equipped with high-end features but it is designed accentuating the Iron Man theme on the top. Flaunt your love and devotion for Avengers making this laptop your own."
+            }
+        ],
+        "memory": [
+            {
+                "title": "RAM Size",
+                "body": "8 GB"
+            },
+            {
+                "title": "RAM Details",
+                "body": "LPDDR3"
+            }
+        ],
+        "physical_specs": [
+            {
+                "title": "Weight",
+                "body": "1.6 Kg"
+            },
+            {
+                "title": "Color",
+                "body": "Red"
+            },
+            {
+                "title": "Height | Width",
+                "body": "18 mm | 33 cm"
+            },
+            {
+                "title": "Ports and Sensors",
+                "body": "USB 2.0 : 1 | USB 3.0 : 2 | HDMI : 1 | Audio-Out : 1 | Memory Card Reader : Yes | Microphone : Yes | Finger Print Reader : Yes" 
+            }
+        ],
+        "connectivity_sound": [
+            {
+                "title": "Wireless Type",
+                "body": "801.11 AC"
+            },
+            {
+                "title": "Audio Details",
+                "body": "NX.GZ6SI.001"
+            },
+            {
+                "title": "Number of speakers",
+                "body": "2"
+            },
+            {
+                "title": "Sound Mode",
+                "body": "Stereo" 
+            }
+        ],  
+        "processor": [
+            {
+                "title": "Processor",
+                "body": "Intel® Core™ i5-8250U"
+            },
+            {
+                "title": "Processor Speed",
+                "body": "1.6 GHz"
+            },
+            {
+                "title": "Processor Core",
+                "body": "Quad-core (4 Core™)"
+            },
+            {
+                "title": "GPU",
+                "body": "Dedicated NVIDIA® GeForce® MX150 GDDR5"
+            },
+            {
+                "title": "GPU Memory",
+                "body": "Up to 2 GB"
+            }
+
+        ],
+        "storage": [
+            {
+                "title": "Storage Drive Technology",
+                "body": "Solid State Drive"
+            },
+            {
+                "title": "SSD Details",
+                "body": "256 GB"
+            }
+        ],
+        "power": [
+            {
+                "title": "Battery",
+                "body": "4 Litium Ion Cells"
+            },
+            {
+                "title": "Battery Energy Content",
+                "body": "37 Watt Hours"
+            },
+            {
+                "title": "Battery Capacity",
+                "body": "3220 mAh"
+            },
+            {
+                "title": "Maximum Battery Run Time",
+                "body": "10 Hours"
+            },
+            {
+                "title": "Maximum Power Supply Wattage",
+                "body": "65 W"
+            }
+        ],
+        "other_details": [
+            {
+                "title": "Warranty Details",
+                "body": "This genuine Acer laptop comes with 1 year domestic warranty from Acer covering manufacturing defects and not covering physical damage."
+            },
+            {
+                "title": "In the Box",
+                "body": "Laptop | Battery | AC Adapter | User Manual"
+            }
+        ],
+        "pre_installed_apps": [
+            {
+                "title": "OS",
+                "body": "Windows 10 Home"
+            }
+        ]
+    }
+]

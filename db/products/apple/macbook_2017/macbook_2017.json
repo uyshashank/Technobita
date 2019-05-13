@@ -1,0 +1,168 @@
+[
+    [
+        "General Information",
+        "Display",
+        "Connectivity",
+        "Memory",
+        "Physical Specification",
+        "Processor",
+        "Storage",
+        "Webcam and Microphone",
+        "Power",
+        "Sound",
+        "Keyboard",
+        "Pre-installed Applications"
+    ],
+
+    {
+        "general_information": [
+            {
+                "title": "Model Name",
+                "body": "Apple Macbook Core i5"
+            },
+            {
+                "title": "Operating System",
+                "body": "MacOS"
+            },
+            {
+                "title": "Price",
+                "body": "78000"
+            }
+        ],
+        "display": [
+            {
+                "title": "Screen Size",
+                "body": "12 inches"
+            },
+            {
+                "title": "Resolution",
+                "body": "2304 x 1440"
+            },
+            {
+                "title": "Other Details",
+                "body": "LED-backlit display with IPS technology 2304x1440 resolution at 226 pixels per inch with support for millions of colours"
+            }
+        ],
+        "connectivity": [
+            {
+                "title": "Wireless",
+                "body": "Wi-Fi : 802.11ac Wi-Fi wireless networking | IEEE 802.11a/b/g/n compatible"
+            },
+            {
+                "title": "Bluetooth",
+                "body": "v4.2"
+            }
+        ],
+        "memory": [
+            {
+                "title": "RAM Size",
+                "body": "8 GB"
+            },
+            {
+                "title": "Ram Details",
+                "body": "1866MHz LPDDR3 onboard memory"
+            }
+        ],
+        "physical_specs": [
+            {
+                "title": "Weight",
+                "body": "0.92 Kg"
+            },
+            {
+                "title": "Color",
+                "body": "Space Grey"
+            },
+            {
+                "title": "Height | Width | Depth",
+                "body": "0.35 cm | 28.05 cm | 19.65 cm"
+            },
+            {
+                "title": "Ports",
+                "body": "USB-C port with support for:- Charging, USB 3.1 Gen 1 (up to 5 Gbps), Native DisplayPort 1.2 video output"
+            }
+        ],
+        "processor": [
+            {
+                "title": "CPU",
+                "body": "Dual Core Intel Core i5 "
+            },
+            {
+                "title": "Clock Speed",
+                "body": "1.3GHz"
+            },
+            {
+                "title": "Processor Details",
+                "body": "Turbo Boost up to 3.2GHz, with 4MB L3 cache"
+            },
+            {
+                "title": "GPU",
+                "body": "Intel HD Graphics 615 | Dual display and video mirroring: simultaneously supports full native resolution on the built-in display and up to 4096x2304 resolution at 60Hz on an external display, both at millions of colours"
+            }
+        ],
+        "storage": [
+            {
+                "title": "Storage Drive Type",
+                "body": "PCIe-based Onboard SSD"
+            },
+            {
+                "title": "Capacity",
+                "body": "512 GB"
+            }
+        ],
+        "webcam_microphone": [
+            {
+                "title": "Camera",
+                "body": "480p FaceTime camera"
+            }
+        ],
+        "power": [
+            {
+                "title": "Battery and Power",
+                "body": "Up to 10 hours wireless web | Up to 12 hours iTunes movie playback | Up to 30 days of standby time"
+            },
+            {
+                "title": "Lithium Ion Battery Energy Content",
+                "body": "41.4 Watt Hour"
+            },
+            {
+                "title": "Battery Type",
+                "body": "Lithium Polymer Battery"
+            },
+            {
+                "title": "Charging Adapter",
+                "body": "30W USB-C Power Adapter; USB-C power port"
+            }
+        ],
+        "sound": [
+            {
+                "title": "Speaker Description",
+                "body": "Stereo Speakers"
+            },
+            {
+                "title": "Microphone and Headphones",
+                "body": "Dual microphones | 3.5mm headphone jack"
+            }
+        ],
+        "keyboard": [
+            {
+                "title": "Keyboard",
+                "body": "Full-sized keyboard with:- 78 (US) or 79 (ISO) individual LED-backlit keys, including 12 function keys and 4 arrow keys | Ambient light sensor"
+            },
+            {
+                "title": "Touchpad",
+                "body": "Force Touch trackpad for precise cursor control and pressure-sensing capabilities; enables Force clicks, accelerators, pressure-sensitive drawing and Multi-Touch gestures"
+            }
+        ],
+        "pre_installed_apps": [
+            {
+                "title": "OS",
+                "body": "MacOS"
+            },
+            {
+                "title": "Built-in Apps",
+                "body": "Photos, iMovie, GarageBand, Mail, Safari, Siri and more"
+            }
+            
+        ]
+    }
+]

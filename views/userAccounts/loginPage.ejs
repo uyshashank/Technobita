@@ -1,0 +1,36 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../../../favicon.ico">
+
+    <title>Technobita Login </title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" type="text/css" href="/bootstrap/css/bootstrap.min.css">
+
+    <!-- Custom styles for this template -->
+    <link href="/css/login.css" rel="stylesheet">
+  </head>
+
+  <body class="text-center">
+    <form class="form-signin" action="/auth" method="POST">
+      <img class="mb-4" src="/images/logo/loginIcon.png" alt="" width="72" height="72">
+      <h1 class="h3 mb-3 font-weight-normal">Please Login</h1>      
+      <input name="email" type="email" id="inputEmail" class="my-2 form-control" placeholder="Email address" required autofocus>
+      <input name="pass" type="password" id="inputPassword" class="my-2 form-control" placeholder="Password" required>
+      <div class="float-left checkbox mb-3">      
+        <label>
+          <input type="checkbox" value="remember-me"> Remember me
+        </label>
+      </div>
+      <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+      <a href="/signup">Create new account</a>
+      <p class="mt-5 mb-3 text-muted">&copy; 2018-2019 Technobita.com</p>
+    </form>
+  </body>
+</html>

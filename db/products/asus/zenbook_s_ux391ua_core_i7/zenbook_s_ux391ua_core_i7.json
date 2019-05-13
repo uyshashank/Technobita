@@ -1,0 +1,169 @@
+[
+    [
+        "General Information",
+        "Display",
+        "Connectivity",
+        "Memory",
+        "Physical Specification",
+        "Processor",
+        "Storage",
+        "Power",
+        "Sound",
+        "Other Features",
+        "Pre-installed Applications"
+    ],
+
+    {
+        "general_information": [
+            {
+                "title": "Model Name",
+                "body": "ASUS ZenBook S UX391UA"
+            },
+            {
+                "title": "Operating System",
+                "body": "Windows 10 Home"
+            },
+            {
+                "title": "Price",
+                "body": "23000"
+            }
+        ],
+        "display": [
+            {
+                "title": "Screen Size",
+                "body": "13.3-inch"
+            },
+            {
+                "title": "Resolution",
+                "body": "1920 x 1080"
+            },
+            {
+                "title": "Other Details",
+                "body": "33.78cm(13.3”) LED-backlit Full HD (1920 x 1080) 16:9 glossy screen, 5.9mm-thin bezel with 85% screen-to-body ratio"
+            },
+            {
+                "title": "Advanced Display Features",
+                "body": "Wide 100% sRGB color gamut, 178° wide-view technology, ASUS Eye Care technology for up to 30% blue-light reduction"
+            }
+        ],
+        "connectivity": [
+            {
+                "title": "Wireless",
+                "body": "Dual-band 802.11ac Wi-Fi"
+            },
+            {
+                "title": "Bluetooth",
+                "body": "v4.2"
+            }
+        ],
+        "memory": [
+            {
+                "title": "RAM Size",
+                "body": "16 GB"
+            },
+            {
+                "title": "RAM Details",
+                "body": "2133MHz LPDDR3 onboard"
+            }
+        ],
+        "physical_specs": [
+            {
+                "title": "Weight",
+                "body": "1.05 Kg"
+            },
+            {
+                "title": "Height | Width | Depth",
+                "body": "1.29 cm | 31.1 cm | 21.3 cm"
+            },
+            {
+                "title": "Colors Available",
+                "body": "Deep Dive Blue | Burgundy Red"
+            },
+            {
+                "title": "Ports",
+                "body": "2 x Type-C™ USB 3.1 Gen 2 (Thunderbolt™) | 1 x Type-C™ USB 3.1 Gen 1 | All three ports support fast charging, data transfers and display connectivity"
+            }
+        ],
+        "processor": [
+            {
+                "title": "Processor",
+                "body": "Intel® Core™ i7-8550U"
+            },
+            {
+                "title": "Processor Details",
+                "body": "1.8GHz quad-core with Turbo boost (up to 4.0GHz) and 8MB cache"
+            },
+            {
+                "title": "GPU",
+                "body": "Integrated Intel® UHD Graphics 620"
+            }
+
+        ],
+        "storage": [
+            {
+                "title": "Storage Drive Type",
+                "body": "SSD"
+            },
+            {
+                "title": "SSD Details",
+                "body": "512GB PCIe® SSD"
+            }
+        ],
+        "power": [
+            {
+                "title": "Battery and Power",
+                "body": "50Wh 4-cell lithium-polymer battery"
+            },
+            {
+                "title": "Adapter",
+                "body": "65W Power Adapter, Input : 100 -240 V AC, 50/60 Hz universal | Output : 19V DC, 65W"
+            },
+            {
+                "title": "Battery life",
+                "body": "Up to 13.5 hours battery life"
+            }
+        ],
+        "sound": [
+            {
+                "title": "Audio Details",
+                "body": "3.5mm headphone jack, sASUS SonicMaster stereo audio system with surround-sound, smart amplifier for maximum audio performance"
+            },
+            {
+                "title": "Advanced Audio Features",
+                "body": "Array microphone with Cortana and Alexa1 voice-recognition support, Long-travel voice coils for improved low-frequency response"
+            },
+            {
+                "title": "Certified By",
+                "body": "Harman Kardon"
+            }
+        ],
+        "other_specs": [
+            {
+                "title": "Keyboard",
+                "body": "Full-size backlit, with 1.2mm key travel"
+            },
+            {
+                "title": "Fingerprint",
+                "body": "Glass-covered with integrated fingerprint sensor supporting Windows Hello; intelligent palm-rejection"
+            },
+            {
+                "title": "Touchpad",
+                "body": "Precision Touchpad (PTP) technology supports up to four-finger smart gestures"
+            },
+            {
+                "title": "WebCam",
+                "body": "HD Webcam"
+            }
+        ],
+        "pre_installed_apps": [
+            {
+                "title": "OS",
+                "body": "Windows 10 Home"
+            },
+            {
+                "title": "ASUS Apps",
+                "body": "ASUS Splendid, ASUS Live Update, ASUS Product Registration Program, ASUS GiftBox"
+            }
+        ]
+    }
+]

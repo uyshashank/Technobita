@@ -1,0 +1,161 @@
+[
+    [
+        "General Information",
+        "Display",
+        "Memory",
+        "Physical Specification",
+        "Connectivity and Sound",
+        "Processor",
+        "Storage",
+        "Power",
+        "Other Details",
+        "Pre-installed Applications"
+    ],
+
+    {
+        "general_information": [
+            {
+                "title": "Model Name",
+                "body": "Acer Swift 7-SF713 Core i5 (7th Gen)"
+            },
+            {
+                "title": "Operating System",
+                "body": "Windows 10 Home"
+            },
+            {
+                "title": "Price",
+                "body": "30000"
+            }
+        ],
+        "display": [
+            {
+                "title": "Screen Size",
+                "body": "13.3-inch"
+            },
+            {
+                "title": "Resolution",
+                "body": "1920 x 1080"
+            },
+            {
+                "title": "Display Details",
+                "body": "In-plane Switching (IPS) Technology | Full HD | LCD"
+            }
+        ],
+        "memory": [
+            {
+                "title": "RAM Size",
+                "body": "8 GB"
+            },
+            {
+                "title": "RAM Details",
+                "body": "LPDDR3"
+            },
+            {
+                "title": "Number of Total Memory Slots",
+                "body": "2"
+            },
+            {
+                "title": "Intel Optane Memory Capacity",
+                "body": "16 GB"
+            }
+        ],
+        "physical_specs": [
+            {
+                "title": "Weight (Approximate)",
+                "body": "1.13 Kg"
+            },
+            {
+                "title": "Color",
+                "body": "Black"
+            },
+            {
+                "title": "Height | Width | Depth",
+                "body": "10 mm | 32.46 cm | 22.96 cm"
+            },
+            {
+                "title": "Ports and Sensors",
+                "body": "USB 3.1 : 2 | Memory Card Supported : Yes | Microphone : Yes | Finger Print Reader : No"
+            }
+        ],
+        "connectivity_sound": [
+            {
+                "title": "Wireless Type",
+                "body": "802.11 a/b/g/n/ac"
+            },
+            {
+                "title": "Connectivity Type",
+                "body": "Wi-Fi, Bluetooth-V4.0, MIMO technology"
+            },
+            {
+                "title": "Audio Details",
+                "body": "Speakers"
+            },
+            {
+                "title": "Sound Mode",
+                "body": "Stereo"
+            }
+        ],
+        "processor": [
+            {
+                "title": "Processor",
+                "body": "Intel® Core™ i5-7Y54"
+            },
+            {
+                "title": "Processor Speed",
+                "body": "3.20 GHz"
+            },
+            {
+                "title": "GPU",
+                "body": "Intel HD 615"
+            }
+        ],
+        "storage": [
+            {
+                "title": "Storage Drive Technology",
+                "body": "Solid State Drive"
+            },
+            {
+                "title": "SSD Details",
+                "body": "256 GB"
+            }
+        ],
+        "power": [
+            {
+                "title": "Battery",
+                "body": "4 Litium Ion Cells"
+            },
+            {
+                "title": "Battery Energy Content",
+                "body": "42.66 Watt Hours"
+            },
+            {
+                "title": "Battery Capacity",
+                "body": "2770 mAh"
+            },
+            {
+                "title": "Maximum Power Supply Wattage",
+                "body": "45 W"
+            },
+            {
+                "title": "Maximum Battery Run Time",
+                "body": "9 Hour"
+            }
+        ],
+        "other_details": [
+            {
+                "title": "Warranty Details",
+                "body": "This genuine Acer laptop comes with 1 year domestic warranty from Acer covering manufacturing defects and not covering physical damage."
+            },
+            {
+                "title": "Pointing Device Type",
+                "body": "TouchPad"
+            }
+        ],
+        "pre_installed_apps": [
+            {
+                "title": "OS",
+                "body": "Windows 10 Home"
+            }
+        ]
+    }
+]

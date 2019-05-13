@@ -1,0 +1,45 @@
+</body>
+
+<!--Script written by me-->
+<!--Form Validation and search bar hidder for small screens-->
+<script>
+    var searchBarNav    = document.getElementById('searchBarNav');
+    var secondaryNavbar = document.getElementById('secondaryNavbar');
+    var searchField     = document.querySelectorAll('.searchField');
+    var searchBtn       = document.querySelectorAll('.search-btn');
+
+    function openSearch() {
+        if (searchBarNav.style.display === "block") {
+            searchBarNav.style.display = "none";
+            secondaryNavbar.classList.add('secondaryNavbar');
+            secondaryNavbar.classList.remove('secondaryNavbarToggle');
+        } else {
+            searchBarNav.style.display = "block";
+            secondaryNavbar.classList.add('secondaryNavbarToggle');
+            secondaryNavbar.classList.remove('secondaryNavbar');
+        }
+    }
+
+    function validateForm() {
+        var mobileSearch = document.forms["myFormMobile"]["s"].value;
+        var desktopSearch = document.forms["myFormDesktop"]["s"].value;
+        var warningSmall = document.getElementById('warningSmall');
+
+        if (searchBarNav.style.display === "block") {
+            if (mobileSearch == "") {
+                warningSmall.style.display = "block";
+                return false;
+            }
+        } else {
+            if (desktopSearch == "") {
+                alert('Search Feild Empty')
+                return false;
+            }
+        }
+    }
+</script>
+<!--Bootstrap Js links-->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</html>

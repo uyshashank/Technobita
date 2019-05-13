@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link rel="icon" href="">
+
+  <title>Technobita-Signup</title>
+
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" type="text/css" href="/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+    crossorigin="anonymous">
+  <!-- Custom styles for this template -->
+  <link href="/css/login.css" rel="stylesheet">
+
+  <style>
+    .warningInactive{
+      display: none;
+    }
+    .warningActive{
+      display: block;
+    }
+  </style>
+
+</head>
+
+<body class="text-center">
+  <form class="form-signin" action="/createUser" method="POST">
+    <img class="mb-4" src="/images/logo/loginIcon.png" alt="" width="72" height="72">
+    <h1 class="h3 mb-3 font-weight-normal">Create Account</h1>
+    <input name="fname" type="text" class="my-2 form-control" placeholder="First Name" required autofocus>
+    <input name="lname" type="text" class="my-2 form-control" placeholder="Last Name" required>
+    <input name="email" type="email" class="my-2 form-control" placeholder="Email" required>
+    <input name="mob" type="tel" class="my-2 form-control" placeholder="Mobile" required>
+    <input name="pass" type="password" class="my-2 form-control" id="pass" placeholder="Password" required>
+    <input name="cpass" type="password" class="my-2 form-control" id="cpass" placeholder="Confirm Password" required>
+    <div class="warningInactive" id="warningMessage">
+      <i class="float-left mt-2 text-warning fas fa-exclamation-circle"></i>
+      <i class="ml-2 my-1 float-left">Password Mismatch!</i>
+    </div>
+
+    <div class="float-left checkbox mb-2">
+      <label>
+        <input type="checkbox" value="remember-me" required> I agree to terms and conditions!
+      </label>
+    </div>
+    <button class="btn btn-lg btn-primary btn-block" onclick="validate();" type="submit" id="signUpBtn">Sign Up</button>
+    <a href="/login">Login to existing account</a>
+    <p class="mt-5 mb-3 text-muted">&copy; 2019 TechNobita.com </p>
+  </form>
+</body>
+<script>
+  var pass = document.getElementById("pass");
+  var cpass = document.getElementById("cpass");
+  var msg = document.getElementById("warningMessage");
+  function validate() {
+    if (pass.value != cpass.value) {
+      msg.classList.toggle('warningActive');
+      event.preventDefault();
+    } else {
+      msg.classList.remove('warningActive');
+      msg.classList.add('warningInactive');     
+    }
+  }
+</script>
+
+</html>

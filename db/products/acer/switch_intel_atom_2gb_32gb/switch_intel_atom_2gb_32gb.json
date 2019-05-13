@@ -1,0 +1,115 @@
+[
+    [
+        "General Information",
+        "Display",
+        "Memory",
+        "Physical Specification",
+        "Processor",
+        "Storage",
+        "Power",
+        "Other Details",
+        "Pre-installed Applications"
+    ],
+
+    {
+        "general_information": [
+            {
+                "title": "Model Name",
+                "body": "Acer Switch Intel Atom 2GB|32GB-HDD|Windows 10"
+            },
+            {
+                "title": "Operating System",
+                "body": "Windows 10 Home"
+            },
+            {
+                "title": "Price",
+                "body": "21000"
+            }
+        ],
+        "display": [
+            {
+                "title": "Screen Size",
+                "body": "10.1-inch"
+            },
+            {
+                "title": "Resolution",
+                "body": "1280 x 1024"
+            }
+        ],
+        "memory": [
+            {
+                "title": "RAM Size",
+                "body": "2 GB"
+            },
+            {
+                "title": "RAM Details",
+                "body": "DDR3"
+            }
+        ],
+        "physical_specs": [
+            {
+                "title": "Weight",
+                "body": "1.1 Kg"
+            },
+            {
+                "title": "Color",
+                "body": "Black"
+            },
+            {
+                "title": "Height | Width",
+                "body": "11 mm | 17.3 cm"
+            },
+            {
+                "title": "Ports and Sensors",
+                "body": "USB 2.0 : 1 | USB 3.0 : 1 | HDMI : 1 | Audio-Out : 1 | Ethernet : 1 | Microphone : 1" 
+            }
+        ],  
+        "processor": [
+            {
+                "title": "Processor",
+                "body": "Intel® Atom"
+            },
+            {
+                "title": "GPU",
+                "body": "Intel integrated Graphics"
+            }
+
+        ],
+        "storage": [
+            {
+                "title": "Storage Drive Technology",
+                "body": "Mechanical Hard Drive"
+            },
+            {
+                "title": "HDD Details",
+                "body": "32 GB"
+            }
+        ],
+        "power": [
+            {
+                "title": "Battery",
+                "body": "2 Litium Ion Cells"
+            },
+            {
+                "title": "Battery Energy Content",
+                "body": "37 Watt Hours"
+            }
+        ],
+        "other_details": [
+            {
+                "title": "Warranty Details",
+                "body": "This genuine Acer laptop comes with 1 year domestic warranty from Acer covering manufacturing defects and not covering physical damage."
+            },
+            {
+                "title": "In the Box",
+                "body": "Laptop | Battery | AC Adapter | User Manual"
+            }
+        ],
+        "pre_installed_apps": [
+            {
+                "title": "OS",
+                "body": "Windows 10 Home"
+            }
+        ]
+    }
+]

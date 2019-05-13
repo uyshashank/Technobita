@@ -1,0 +1,160 @@
+<% var primaryNavCol="#232F3F" %>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="theme-color" content="<%= primaryNavCol %>" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technobita-Full specifications and reviews of mobile phones and laptops</title>
+    <!--Favicon-->
+    <link rel="icon" href="/images/logo/favicon_technobita.ico" sizes="16x16" type="image/png">
+    <!--Bootstrap CSS links-->
+    <link rel="stylesheet" type="text/css" href="/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="/css/styles.css">
+    <!--Google Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Encode+Sans+Condensed:400,700,800|Titillium+Web" rel="stylesheet">
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+        crossorigin="anonymous">
+    <script src="../../js/script.js"></script>
+    <style>
+        #dropdownMenu:hover{
+            border-bottom: 0;
+        }
+        .dropdown-menu a:hover{
+            background-color: powderblue;
+        }
+    </style>
+</head>
+
+<body>
+    <section id="baap" class="sticky-top">
+        <!--Primary Navigation bar-->
+        <nav class="navbar navbar-expand-md navbar-light mainNavbar">
+            <div class="container">
+                <!--logo-->
+                <a href="/" class="navbar-brand">
+                    <img src="/images/logo/logo_yellow.png" alt="Technobita Logo" class="img-fluid logo">
+                </a>
+
+                <!--Search Bar-->
+
+                <form action="q" method="get" name="myFormDesktop" class="w-50 d-none d-lg-flex" onsubmit="return validateForm()">
+                    <div class="input-group">
+                        <input type="text" name="s" autocomplete="off" class="border-0  form-control search-field"
+                            placeholder="Search for Products...">
+                        <div class="input-group-append">
+
+                            <a class="btn text-white border-0 input-group-text" id="search-btn">
+                                <i class="fas fa-search"></i>
+                            </a>
+                        </div>
+                    </div>
+                </form>
+
+                <!--Collapsible menu-->
+                <div class="collapse text-center navbar-collapse text-white justify-content-end" id="content">
+                    <ul class="navbar-nav mx-3" id="menu-item">
+                        <li class="nav-item">
+                            <a href="/" class="nav-link">Home</a>
+                        </li>
+
+
+                        <% if(loggedIn === "true") { %>
+                        <li class="nav-item">
+                            <a href="/cart" class="nav-link"><i class="fas fa-shopping-cart"></i> Cart</a>
+                        </li>
+                        <li class="nav-item">
+                            <div class="dropdown">
+                                <a class="nav-link dropdown-toggle" id="dropdownMenu" data-toggle="dropdown"
+                                    aria-haspopup="true" aria-expanded="false">
+                                    Hi,
+                                    <%= userName %>
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenu">
+                                    
+                                    <a class="dropdown-item text-dark" href="/addProduct">Add Product</a>
+                                    
+                                    <a class="dropdown-item text-dark" href="/logout">Log Out</a>
+                                </div>
+                            </div>
+                        </li>
+
+                        <% } else if(loggedIn === "false"){ %>
+                        <li class="nav-item">
+                            <a href="/login" class="nav-link">Login</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="/signup" class="nav-link">Signup</a>
+                        </li>
+                        <% } %>
+
+                        <li class="nav-item d-none d-md-flex d-lg-none">
+                            <a href="" class="nav-link"> <i class="fas fa-search"></i> </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+
+        <section class="sticky-top">
+            <nav class="navbar navbar-light secondaryNavbar d-md-none" id="secondaryNavbar">
+                <div class="container-fluid my-0 justify-content-center">
+                    <ul class="list-inline my-0">
+                        <li class="list-inline-item">
+                            <a href="/">Home</a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="/">All Brands</a>
+                        </li>
+                        <% if(loggedIn === "true") { %>
+                        <li class="list-inline-item text-white">
+                            <div class="dropdown">
+                                <a class="dropdown-toggle" id="dropdownMenu" data-toggle="dropdown" aria-haspopup="true"
+                                    aria-expanded="false" href="">
+                                    Hi,
+                                    <%= userName %>
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenu">
+                                    <a href="/cart" class="dropdown-item text-dark">Your Cart <i class="fas fa-shopping-cart"></i></a>
+                                    
+                                    <a href="/addProduct" class="dropdown-item text-dark">Add Product</a>
+                                    
+                                    <a class="dropdown-item text-dark" href="/logout">Log Out</a>
+                                </div>
+                            </div>
+                        </li>
+                        <% } else if(loggedIn === "false"){ %>
+                        <li class="list-inline-item">
+                            <a href="/login">Login</a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="/signup">Signup</a>
+                        </li>
+                        <% } %>
+                        <li class="list-inline-item">
+                            <span href="" class="text-white" onclick="openSearch()" id="searchIcon"> <i class="fas fa-search"></i></span>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <!--Search Bar for small screens-->
+            <nav class="navbar navbar-light d-md-none" id="searchBarNav">
+                <form method="get" name="myFormMobile" class="w-100" onsubmit="return validateForm()">
+                    <div class="input-group">
+                        <input type="text" name="s" autocomplete="off" class="border-0 form-control search-field"
+                            placeholder="Search for Products...">
+                        <div class="input-group-append">
+                            <a class="btn text-white border-0 input-group-text" id="search-btn">
+                                <i class="fas fa-search"></i>
+                            </a>
+                        </div>
+                    </div>
+                </form>
+                <div id="warningSmall" class="alert alert-primary fade show my-auto" role="alert">
+                    <strong>Search Field Empty</strong>
+                </div>
+            </nav>
+        </section>

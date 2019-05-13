@@ -1,0 +1,60 @@
+[
+    {
+        "brand_name": "acer",
+        "product_name": "nitro_an515-52_core_i7_8gb_black",
+        "product_title":"Acer Nitro 5 Core i7 (8th Gen)",
+        "memory":"8 GB DDR4 SDRAM",
+        "storage":"1 TB Hardisk",
+        "rating":"4.5"
+},
+    {
+        "brand_name": "asus",
+        "product_name": "vivobook_pro_15_n580vd_core_i7",
+        "product_title":"ASUS VivoBook Pro 15",
+        "memory":"Upto 16 GB SDRAM",
+        "storage":"1 TB HDD | 128 GB SSD",
+        "rating":"4.1"
+}, {
+        "brand_name": "dell",
+        "product_name": "inspiron_15_7572_core_i7",
+        "product_title":"Dell Inspiron 15 7572",
+        "memory":"8 GB DDR4",
+        "storage":"128 GB SSD | 1 TB HDD",
+        "rating":"4.5"
+}, {
+        "brand_name": "hp",
+        "product_name": "envy_x360_13-ag0035au_amd_8gb_256gbSsd",
+        "product_title":"HP ENVY x360 AMD Ryzen™ 5 2500U",
+        "memory":"8 GB DDR4 SDRAM",
+        "storage":"256 GB SSD",
+        "rating":"4.1"
+},{
+        "brand_name": "apple",
+        "product_name": "macbook_air_2018",
+        "product_title":"Apple Macbook Air 2018",
+        "memory":"8 GB LPDDR3",
+        "storage":"256 GB SSD",
+        "rating":"4.2"
+}, {
+        "brand_name": "apple",
+        "product_name": "macbook_pro_2018",
+        "product_title":"Apple Macbook Pro 2018",
+        "memory":"16 GB DDR4",
+        "storage":"512 GB SSD",
+        "rating":"4.7"
+}, {
+        "brand_name": "asus",
+        "product_name": "rog_zephyrus",
+        "product_title":"Asus ROG Zephyrus",
+        "memory":"16 GB DDR4 SDRAM",
+        "storage":"1 TB SSD",
+        "rating":"4.0"
+}, {
+        "brand_name": "dell",
+        "product_name": "xps_9370_core_i7",
+        "product_title":"Dell XPS 9370",
+        "memory":"16 GB LPDDR3",
+        "storage":"512 GB HDD",
+        "rating":"3.9"
+}
+]

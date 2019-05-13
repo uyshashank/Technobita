@@ -1,0 +1,170 @@
+[
+    [
+        "General Information",
+        "Display",
+        "Memory",
+        "Physical Specification",
+        "Connectivity and Sound",
+        "Processor",
+        "Storage",
+        "Power",
+        "Other Details",
+        "Pre-installed Applications"
+    ],
+
+    {
+        "general_information": [
+            {
+                "title": "Model Name",
+                "body": "Acer Nitro 5 Core i7 (8th Gen)"
+            },
+            {
+                "title": "Operating System",
+                "body": "Windows 10 Home"
+            },
+            {
+                "title": "Price",
+                "body": "47000"
+            }
+        ],
+        "display": [
+            {
+                "title": "Screen Size",
+                "body": "15.6-inch"
+            },
+            {
+                "title": "Resolution",
+                "body": "1920 x 1080"
+            },
+            {
+                "title": "Display Details",
+                "body": "In-plane Switching (IPS) Technology | Full HD | LCD"
+            }
+        ],
+        "memory": [
+            {
+                "title": "RAM Size",
+                "body": "8 GB"
+            },
+            {
+                "title": "RAM Details",
+                "body": "DDR4 SDRAM"
+            },
+            {
+                "title": "Number of Total Memory Slots",
+                "body": "2"
+            },
+            {
+                "title": "Intel Optane Memory Capacity",
+                "body": "16 GB"
+            }
+        ],
+        "physical_specs": [
+            {
+                "title": "Weight (Approximate)",
+                "body": "2.70 Kg"
+            },
+            {
+                "title": "Color",
+                "body": "Black"
+            },
+            {
+                "title": "Height | Width | Depth",
+                "body": "26.8 mm | 39 cm | 26.6 cm"
+            },
+            {
+                "title": "Ports and Sensors",
+                "body": "USB 2.0 : 2 | USB 3.0 : 1 | USB 3.1 Gen 1 : 1 | HDMI : 1 | Audio-Out : 1 | Memory Card Supported : Yes(SD, SDXC) | Microphone : Yes | Finger Print Reader : No | Network(RJ-45) : Yes" 
+            }
+        ],
+        "connectivity_sound": [
+            {
+                "title": "Wireless LAN Standard",
+                "body": "IEEE 802.11a/b/g/n/ac"
+            },
+            {
+                "title": "Ethernet Technology",
+                "body": "Gigabit Ethernet"
+            },
+            {
+                "title": "Number of speakers",
+                "body": "2"
+            },
+            {
+                "title": "Sound Mode",
+                "body": "Stereo" 
+            }
+        ],  
+        "processor": [
+            {
+                "title": "Processor",
+                "body": "Intel® Core™ i7-8750H"
+            },
+            {
+                "title": "Processor Speed",
+                "body": "2.20 GHz"
+            },
+            {
+                "title": "Processor Core",
+                "body": "Hexa-core (6 Core™)"
+            },
+            {
+                "title": "GPU",
+                "body": "Dedicated NVIDIA® GeForce® GTX 1050 Ti GDDR5"
+            },
+            {
+                "title": "GPU Memory",
+                "body": "Up to 4 GB"
+            }
+
+        ],
+        "storage": [
+            {
+                "title": "Storage Drive Technology",
+                "body": "SATA"
+            },
+            {
+                "title": "HDD Details",
+                "body": "1 TB"
+            }
+        ],
+        "power": [
+            {
+                "title": "Battery",
+                "body": "4 Litium Ion Cells"
+            },
+            {
+                "title": "Battery Energy Content",
+                "body": "37 Watt Hours"
+            },
+            {
+                "title": "Battery Capacity",
+                "body": "3320 mAh"
+            },
+            {
+                "title": "Maximum Power Supply Wattage",
+                "body": "135 W"
+            }
+        ],
+        "other_details": [
+            {
+                "title": "Warranty Details",
+                "body": "This genuine Acer laptop comes with 1 year domestic warranty from Acer covering manufacturing defects and not covering physical damage."
+            },
+            {
+                "title": "Pointing Device Type",
+                "body": "TouchPad"
+            },
+            {
+                "title": "Keyboard Backlight",
+                "body": "Yes"
+            }
+        ],
+        "pre_installed_apps": [
+            {
+                "title": "OS",
+                "body": "Windows 10 Home"
+            }
+        ]
+    }
+]

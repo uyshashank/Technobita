@@ -1,0 +1,133 @@
+[
+    [
+        "General Information",
+        "Display",
+        "Connectivity",
+        "Memory",
+        "Physical Specification",
+        "Processor",
+        "Storage",
+        "Power",
+        "Sound",
+        "Keyboard",
+        "Pre-installed Applications",
+        "Warranty and Manufacturer's Information"        
+    ],
+    
+    {
+        "general_information": [
+            {
+                "title": "Model Name",
+                "body": "Dell Inspiron 7570 Core i5"
+            },
+            {
+                "title": "Operating System",
+                "body": "Windows 10 Home"
+            },
+            {
+                "title": "Laptop Type",
+                "body": "Notebook"
+            },
+            {
+                "title": "Price",
+                "body": "51780"
+            }
+        ],
+        "display": [
+            {
+                "title": "Display Size",
+                "body": "15.6 inches"
+            },
+            {
+                "title": "Display Technology",
+                "body": "HD"
+            }
+        ],
+        "connectivity": [
+            {
+                "title": "Wireless",
+                "body": "Yes"
+            },
+            {
+                "title": "Pointing Device",
+                "body": "Touchpad"
+            },            
+            {
+                "title": "Bluetooth",
+                "body": "Yes"
+            }
+        ],
+        "memory": [
+            {
+                "title": "RAM Installed",
+                "body": "4 x 2 = 8 GB"
+            },
+            {
+                "title": "Ram Type",
+                "body": "DDR4"
+            }
+        ],
+        "physical_specs": [
+            {
+                "title": "Weight",
+                "body": "2.1 Kg"
+            },
+            {
+                "title": "Color",
+                "body": "Silver"
+            },
+            {
+                "title": "Dimensions",
+                "body": "24.4 x 36.1 x 1.8 cm"
+            }
+        ],
+        "processor": [
+            {
+                "title": "CPU",
+                "body": "Intel Core i5-8250U (8th Gen)"
+            },
+            {
+                "title": "GPU",
+                "body": "NVidia Geforce 940MX 4 GB"
+            }
+        ],
+        "storage": [
+            {
+                "title": "Hard Disk Technology",
+                "body": "Mechanical Hard Disk"
+            },
+            {
+                "title": "Capacity",
+                "body": "1 TB"
+            }
+        ],
+        "power": [
+            {
+                "title": "Battery Type",
+                "body": "Li-ion"
+            }
+        ],
+        "sound": [],
+        "keyboard": [],
+        "pre_installed_apps": [
+            {
+                "title": "OS",
+                "body": "Windows 10"
+            },
+            {
+                "title": "Office",
+                "body": "MS Office Home & Student 2016"
+            }
+        ],
+        "warranty_manufacturer_info": [
+            {
+                "title": "Warranty",
+                "body": "1 year onsite domestic warranty from the manufacturer, from date of purchase."
+            },
+            {
+                "title": "Warraty Details",
+                "body": "For more details refer manufacturers website."
+            }
+        ]
+    }
+]

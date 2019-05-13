@@ -1,0 +1,166 @@
+[
+    [
+        "General Information",
+        "Display",
+        "Connectivity",
+        "Memory",
+        "Physical Specification",
+        "Processor",
+        "Storage",
+        "Power",
+        "Sound",
+        "Other Features",
+        "Pre-installed Applications"
+    ],
+
+    {
+        "general_information": [
+            {
+                "title": "Model Name",
+                "body": "Asus VivoBook S15 S510UN Core i7 (8th gen)"
+            },
+            {
+                "title": "Operating System",
+                "body": "Windows 10 Home"
+            },
+            {
+                "title": "Price",
+                "body": "47500"
+            }
+        ],
+        "display": [
+            {
+                "title": "Screen Size",
+                "body": "15.6-inch"
+            },
+            {
+                "title": "Resolution",
+                "body": "1920 x 1080"
+            },
+            {
+                "title": "Notebook Display Technology",
+                "body": "178˚ wide-viewing angle display FHD with 72% NTSC"
+            },
+            {
+                "title": "Other Details",
+                "body": "Full HD IPS 7.8mm nano edge bezel display"
+            }
+        ],
+        "connectivity": [
+            {
+                "title": "Wireless",
+                "body": "Wi-fi: Integrated 802.11 AC (2x2) "
+            },
+            {
+                "title": "Bluetooth",
+                "body": "v4.1"
+            }
+        ],
+        "memory": [
+            {
+                "title": "RAM Size",
+                "body": "8 GB"
+            },
+            {
+                "title": "Ram Details",
+                "body": "DDR4"
+            }
+        ],
+        "physical_specs": [
+            {
+                "title": "Weight",
+                "body": "1.7 Kg"
+            },
+            {
+                "title": "Color",
+                "body": "Gold"
+            },
+            {
+                "title": "Height | Width",
+                "body": "18 mm | 24.3 cm"
+            },
+            {
+                "title": "Ports and Sensors",
+                "body": "USB 3.0 : 1 | USB 2.0 : 2 | Type C USB3.0 (USB3.1 GEN1) : 1 | Microphone-in/Headphone-out jack : 1 | HDMI : 1 | Fingerprint : 1 (On selected Models)"
+            }
+        ],
+        "processor": [
+            {
+                "title": "CPU",
+                "body": "Intel Core i5"
+            },
+            {
+                "title": "Clock Speed",
+                "body": "1.60 GHz"
+            },
+            {
+                "title": "GPU",
+                "body": "NVIDIA , with 2GB GDDR5 VRAM GeForce MX150"
+            }
+            
+        ],
+        "storage": [
+            {
+                "title": "Storage Drive Type",
+                "body": "HDD and SDD"
+            },
+            {
+                "title": "HDD Capacity",
+                "body": "1TB"
+            },
+            {
+                "title": "SDD Capacity",
+                "body": "128 GB"
+            }
+        ],
+        "power": [
+            {
+                "title": "Battery and Power",
+                "body": "2 Cell"
+            },
+            {
+                "title": "Battery Weight",
+                "body": "0.85 Grams"
+            },
+            {
+                "title": "Lithium Battery Energy Content",
+                "body": "42 Watt Hours"
+            },
+            {
+                "title": "Adapter",
+                "body": "Input : 100 -240 V AC, 50/60 Hz universal | Output : 19 V DC, 3.42 A, 65 W"
+            }
+            
+        ],
+        "sound": [
+            {
+                "title": "Audio Details",
+                "body": "Built-in Stereo 2 W Speakers And Microphone"
+            },
+            {
+                "title": "Other Features",
+                "body": "Support Windows 10 Cortana | ASUS SonicMaster Technology"
+            }
+        ],
+        "other_specs": [
+            {
+                "title": "Keyboard",
+                "body": "Illuminated Chiclet Keyboard(On selected models)"
+            },
+            {
+                "title": "Card Reader",
+                "body": "Multi-format card reader (SD/SDHC)"
+            },
+            {
+                "title": "WebCam",
+                "body": "VGA Web Camera"
+            }
+        ],
+        "pre_installed_apps": [
+            {
+                "title": "OS",
+                "body": "Windows 10 Home 64-Bit (Life time validity)"
+            }
+        ]
+    }
+]

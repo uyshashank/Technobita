@@ -1,0 +1,123 @@
+[
+    [
+        "General Information",
+        "Display",
+        "Memory",
+        "Physical Specification",
+        "Processor",
+        "Storage",
+        "Power",
+        "Sound",
+        "Pre-installed Applications"
+    ],
+
+    {
+        "general_information": [
+            {
+                "title": "Model Name",
+                "body": "Lenovo Ideapad 330 AMD E2"
+            },
+            {
+                "title": "Operating System",
+                "body": "Windows 10 Home"
+            },
+            {
+                "title": "Price",
+                "body": "22000"
+            }
+        ],
+        "display": [
+            {
+                "title": "Screen Size",
+                "body": "15.6-inch"
+            },
+            {
+                "title": "Resolution",
+                "body": "1366 x 768"
+            }
+        ],
+        "memory": [
+            {
+                "title": "RAM Size",
+                "body": "4 GB"
+            },
+            {
+                "title": "RAM Details",
+                "body": "DDR4 SDRAM"
+            }
+        ],
+        "physical_specs": [
+            {
+                "title": "Weight",
+                "body": "2.2 Kg"
+            },
+            {
+                "title": "Color",
+                "body": "Mid Night Blue"
+            },
+            {
+                "title": "Height | Width",
+                "body": "23 mm | 26 cm"
+            },
+            {
+                "title": "Ports and Sensors",
+                "body": "USB 3.0 : 1 | USB 2.0 : 1 | HDMI : 1 | Audio-out : 1 | Ethernet Port : 1 | Microphone Port : 1" 
+            }
+        ],
+        "processor": [
+            {
+                "title": "Processor",
+                "body": "AMD E-Series"
+            },
+            {
+                "title": "Processor Speed",
+                "body": "2.20 GHz"
+            },
+            {
+                "title": "Processor Count",
+                "body": "1"
+            },
+            {
+                "title": "GPU",
+                "body": "INTEGRATED GFX"
+            }
+
+        ],
+        "storage": [
+            {
+                "title": "Storage Drive Type",
+                "body": "Mechanical Hard Drive"
+            },
+            {
+                "title": "HDD Details",
+                "body": "500 GB"
+            }
+        ],
+        "power": [
+            {
+                "title": "Battery",
+                "body": "2 Cell"
+            },
+            {
+                "title": "Lithium Battery Energy",
+                "body": "30 Watt Hours"
+            },
+            {
+                "title": "Battery Type",
+                "body": "1 Lithium Polymer Battery"
+            }
+        ],
+        "sound": [
+            {
+                "title": "Audio Details",
+                "body": "Dolby Audio certified, 2x1.5W"
+            }
+        ],
+        "pre_installed_apps": [
+            {
+                "title": "OS",
+                "body": "Windows 10 Home"
+            }
+        ]
+    }
+]

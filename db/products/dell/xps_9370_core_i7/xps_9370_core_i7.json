@@ -1,0 +1,157 @@
+[
+    [
+        "General Information",
+        "Display",
+        "Connectivity",
+        "Memory",
+        "Physical Specification",
+        "Processor",
+        "Storage",
+        "Power",
+        "Sound",
+        "Keyboard",
+        "Pre-installed Applications",
+        "Warranty and Manufacturer's Information"        
+    ],
+    
+    {
+        "general_information": [
+            {
+                "title": "Model Name",
+                "body": "Dell XPS 9370"
+            },
+            {
+                "title": "Launch Date",
+                "body": "January 2018"
+            },
+            {
+                "title": "Operating System",
+                "body": "Windows 10 Home 64 Bit"
+            },
+            {
+                "title": "Price",
+                "body": "58000"
+            }
+        ],
+        "display": [
+            {
+                "title": "Resolution",
+                "body": "3840 x 2160"
+            },
+            {
+                "title": "Display Size",
+                "body": "13.3 inches"
+            },
+            {
+                "title": "Display Technology",
+                "body": "Ultra HD"
+            },
+            {
+                "title": "Display Details",
+                "body": "4K Ultra HD InfinityEdge touch display"
+            }
+        ],
+        "connectivity": [
+            {
+                "title": "Wireless",
+                "body": "Yes"
+            },
+            {
+                "title": "Pointing Device",
+                "body": "Touchpad"
+            },            
+            {
+                "title": "Bluetooth",
+                "body": "Yes"
+            }
+        ],
+        "memory": [
+            {
+                "title": "RAM Size",
+                "body": "16 GB"
+            },
+            {
+                "title": "Ram Details",
+                "body": "LPDDR3 2133MHz Memory"
+            }
+        ],
+        "physical_specs": [
+            {
+                "title": "Weight",
+                "body": "390 Grams"
+            },
+            {
+                "title": "Color",
+                "body": "Silver"
+            },
+            {
+                "title": "Package Dimensions",
+                "body": "44.4 x 28.7 x 7.9 cm"
+            },
+            {
+                "title": "Port & CD Drive",
+                "body": "2x Thunderbolta 3 with PowerShare and DC-In and DisplayPort, 1x USB-C 3.1 with PowerShare, DC-In and DisplayPort, 1x card reader, 1x headset jack, 1x Noble lock slot | No CD drive"
+            }
+        ],
+        "processor": [
+            {
+                "title": "CPU",
+                "body": "Intel Core i7-8550U (8th Gen)"
+            },
+            {
+                "title": "Clock Speed",
+                "body": "4 Ghz"
+            },
+            {
+                "title": "Processor Count",
+                "body": "1"
+            },
+            {
+                "title": "GPU",
+                "body": "Intel Integrated Graphics"
+            }
+        ],
+        "storage": [
+            {
+                "title": "Hard Disk",
+                "body": "512 GB"
+            },
+            {
+                "title": "Hard Disk Details",
+                "body": "PCIe Solid State Drive"
+            }
+        ],
+        "power": [
+            {
+                "title": "Battery",
+                "body": "3 Lithium Ion Cells"
+            },
+            {
+                "title": "Lithium Ion Battery Energy Content",
+                "body": "3 Watt Hours"
+            },
+            {
+                "title": "Battery Backup",
+                "body": "-"
+            },
+            {
+                "title": "Battery Type",
+                "body": "Li-ion"
+            }
+        ],
+        "sound": [],
+        "keyboard": [],
+        "pre_installed_apps": [
+            {
+                "title": "OS",
+                "body": "Windows 10 Home"
+            }
+        ],
+        "warranty_manufacturer_info": [
+            {
+                "title": "Warranty",
+                "body": "1 Year Dell Warranty"
+            }
+        ]
+    }
+]
