@@ -4,7 +4,6 @@ var port = process.env.PORT || 5000;
 var bodyParser = require('body-parser');
 
 // Custom modules
-
 const homePage = require('./routes/homePage');
 const productPage = require('./routes/productPage');
 const brandPage = require('./routes/brandPage');
