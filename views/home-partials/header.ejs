@@ -6,6 +6,7 @@
     <meta charset="utf-8">
     <meta name="theme-color" content="<%= primaryNavCol %>" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google-site-verification" content="yj1kbtjY92yCsuDv1md1-pYGAbsEjy6ItAksM3yF8xU" />
     <title>Technobita-Full specifications and reviews of mobile phones and laptops</title>
     <!--Favicon-->
     <link rel="icon" href="/images/logo/favicon_technobita.ico" sizes="16x16" type="image/png">
@@ -13,16 +14,18 @@
     <link rel="stylesheet" type="text/css" href="/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="/css/styles.css">
     <!--Google Fonts-->
-    <link href="https://fonts.googleapis.com/css?family=Encode+Sans+Condensed:400,700,800|Titillium+Web" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Encode+Sans+Condensed:400,700,800|Titillium+Web"
+        rel="stylesheet">
     <!--Font Awesome-->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
-        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+        integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
     <script src="../../js/script.js"></script>
     <style>
-        #dropdownMenu:hover{
+        #dropdownMenu:hover {
             border-bottom: 0;
         }
-        .dropdown-menu a:hover{
+
+        .dropdown-menu a:hover {
             background-color: powderblue;
         }
     </style>
@@ -40,7 +43,8 @@
 
                 <!--Search Bar-->
 
-                <form action="q" method="get" name="myFormDesktop" class="w-50 d-none d-lg-flex" onsubmit="return validateForm()">
+                <form action="q" method="get" name="myFormDesktop" class="w-50 d-none d-lg-flex"
+                    onsubmit="return validateForm()">
                     <div class="input-group">
                         <input type="text" name="s" autocomplete="off" class="border-0  form-control search-field"
                             placeholder="Search for Products...">
@@ -73,9 +77,9 @@
                                     <%= userName %>
                                 </a>
                                 <div class="dropdown-menu" aria-labelledby="dropdownMenu">
-                                    
+
                                     <a class="dropdown-item text-dark" href="/addProduct">Add Product</a>
-                                    
+
                                     <a class="dropdown-item text-dark" href="/logout">Log Out</a>
                                 </div>
                             </div>
@@ -118,10 +122,11 @@
                                     <%= userName %>
                                 </a>
                                 <div class="dropdown-menu" aria-labelledby="dropdownMenu">
-                                    <a href="/cart" class="dropdown-item text-dark">Your Cart <i class="fas fa-shopping-cart"></i></a>
-                                    
+                                    <a href="/cart" class="dropdown-item text-dark">Your Cart <i
+                                            class="fas fa-shopping-cart"></i></a>
+
                                     <a href="/addProduct" class="dropdown-item text-dark">Add Product</a>
-                                    
+
                                     <a class="dropdown-item text-dark" href="/logout">Log Out</a>
                                 </div>
                             </div>
@@ -135,7 +140,8 @@
                         </li>
                         <% } %>
                         <li class="list-inline-item">
-                            <span href="" class="text-white" onclick="openSearch()" id="searchIcon"> <i class="fas fa-search"></i></span>
+                            <span href="" class="text-white" onclick="openSearch()" id="searchIcon"> <i
+                                    class="fas fa-search"></i></span>
                         </li>
                     </ul>
                 </div>
